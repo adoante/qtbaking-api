@@ -1,0 +1,222 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Texas Fudge Cake",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/Bp-hgvuAGhE",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Cake",
+            "ingredients": [
+                {
+                    "name": "Unsweetened Cocoa Powder",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Coffee",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "2 sticks"
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "lightly beaten"
+                    ]
+                },
+                {
+                    "name": "Buttermilk",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Frosting",
+            "ingredients": [
+                {
+                    "name": "Milk",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cocoa Powder",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 3.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Offset spatula",
+            "optional": true
+        },
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Mixer",
+            "optional": true
+        },
+        {
+            "name": "9x13 pan",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "texas-fudge-cake",
+        "chocolate-cake",
+        "frosted-cake",
+        "easy-recipe",
+        "sheet-cake",
+        "homemade"
+    ]
+}

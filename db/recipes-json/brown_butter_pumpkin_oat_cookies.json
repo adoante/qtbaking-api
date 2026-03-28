@@ -1,0 +1,230 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Brown Butter Pumpkin Oat Cookies",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/yEkawXGfb7w",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 230,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Old-Fashioned Whole Rolled Oats",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 170,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 1.667,
+                    "unit": "cup",
+                    "metric_quantity": 208,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Ground Cinnamon",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pumpkin Pie Spice",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "packed",
+                        "light or dark"
+                    ]
+                },
+                {
+                    "name": "Egg Yolk",
+                    "quantity": 1,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Pure Vanilla Extract",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pumpkin Puree",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 228,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Maple Glaze",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 30,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pure Maple Syrup",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 80,
+                    "metric_unit": "ml",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 112,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "pinch to taste"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "oven",
+            "optional": false
+        },
+        {
+            "name": "pan",
+            "optional": false
+        },
+        {
+            "name": "cookie sheet",
+            "optional": false
+        },
+        {
+            "name": "bowls",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Maple glaze is optional"
+    ],
+    "tags": [
+        "pumpkin-cookies",
+        "oat-cookies",
+        "brown-butter",
+        "fall-baking",
+        "maple-glaze",
+        "easy-recipe"
+    ]
+}

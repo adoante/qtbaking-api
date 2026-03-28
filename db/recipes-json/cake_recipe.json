@@ -1,0 +1,240 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Cake Recipe (It\u2019s not hers (apparently))",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Cake",
+            "ingredients": [
+                {
+                    "name": "Semi Sweet Chocolate Bar",
+                    "quantity": 4,
+                    "unit": "oz",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "finely chopped"
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Canola Oil",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        "or vegetable oil"
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 1.75,
+                    "unit": "cup",
+                    "metric_quantity": 350,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Large Eggs",
+                    "quantity": 4,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature preferred"
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 3,
+                    "unit": "cups",
+                    "metric_quantity": 390,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.75,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Buttermilk",
+                    "quantity": 1.25,
+                    "unit": "cup",
+                    "metric_quantity": 300,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        "room temperature preferred"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Frosting",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 1,
+                    "unit": "pound",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 4,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "4-6 cups"
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "to taste"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Optional Raspberry Filling",
+            "ingredients": [
+                {
+                    "name": "Frozen Raspberries",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cornstarch",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Juice",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [],
+    "notes": [
+        "Chocolate frosting can be made by adding chocolate syrup to taste"
+    ],
+    "tags": [
+        "layer-cake",
+        "buttercream",
+        "chocolate",
+        "raspberry-filling",
+        "from-scratch",
+        "celebration-cake"
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Lemon Poppy Seed Bars",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/svvq9iBHa2w",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Lemon Poppy Bars",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 228,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 130,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Fine Sea Salt",
+                    "quantity": 0.75,
+                    "unit": "teaspoon",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Zest",
+                    "quantity": 2,
+                    "unit": "lemons",
+                    "metric_quantity": 12,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 2,
+                    "unit": "teaspoons",
+                    "metric_quantity": 8,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 2.25,
+                    "unit": "cups",
+                    "metric_quantity": 270,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Poppy Seeds",
+                    "quantity": 2,
+                    "unit": "tablespoons",
+                    "metric_quantity": 18,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Curd",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Lemon Curd",
+            "ingredients": [
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Zest",
+                    "quantity": 2,
+                    "unit": "tablespoons",
+                    "metric_quantity": 12,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg Yolks",
+                    "quantity": 6,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Juice",
+                    "quantity": 7,
+                    "unit": "tablespoons",
+                    "metric_quantity": 105,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "cold"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Electric mixer or hand whisk",
+            "optional": false
+        },
+        {
+            "name": "Baking dish",
+            "optional": false
+        },
+        {
+            "name": "Parchment paper",
+            "optional": false
+        },
+        {
+            "name": "Spatula or bowl scraper",
+            "optional": false
+        },
+        {
+            "name": "Zester",
+            "optional": false
+        },
+        {
+            "name": "Juicer",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "lemon-bars",
+        "poppy-seed",
+        "citrus-dessert",
+        "baked-bars",
+        "sweet",
+        "homemade"
+    ]
+}

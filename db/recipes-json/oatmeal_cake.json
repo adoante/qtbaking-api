@@ -1,0 +1,255 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Oatmeal Cake",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/QH9uZaJHo3c",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Oatmeal Cake",
+            "ingredients": [
+                {
+                    "name": "Boiling Water",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 315,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Rolled Oats",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 80,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 220,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 188,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.75,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Oatmeal Cake Icing",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 220,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Heavy Cream",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 180,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pecans",
+                    "quantity": 1.333,
+                    "unit": "cups",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "chopped"
+                    ]
+                },
+                {
+                    "name": "Shredded Coconut",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 190,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "9x13 or 9x9 pan",
+            "optional": false
+        },
+        {
+            "name": "Hand or stand mixer",
+            "optional": true
+        },
+        {
+            "name": "Cooking spray or butter",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "oatmeal-cake",
+        "coconut-pecan",
+        "comfort-dessert",
+        "baked-cake",
+        "classic",
+        "home-baking"
+    ]
+}

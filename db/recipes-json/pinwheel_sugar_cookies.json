@@ -1,0 +1,140 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Pinwheel Sugar Cookies",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/NmmahvP4QsQ",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "Flour",
+                    "quantity": 3,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "White Sugar",
+                    "quantity": 1.333,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Almond Extract",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "optional"
+                    ]
+                },
+                {
+                    "name": "Red Food Coloring",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Blue Food Coloring",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "pinwheel-cookies",
+        "sugar-cookies",
+        "colored-dough",
+        "baked-cookies",
+        "festive",
+        "homemade"
+    ]
+}

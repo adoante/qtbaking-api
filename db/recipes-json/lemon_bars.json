@@ -1,0 +1,183 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Lemon Bars",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/XY3emBO-QWo",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Crust Ingredients",
+            "ingredients": [
+                {
+                    "name": "AP Flour",
+                    "quantity": 2.5,
+                    "unit": "cups",
+                    "metric_quantity": 300,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 66,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "teaspoon",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 12,
+                    "unit": "tbsp",
+                    "metric_quantity": 170,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "melted"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Lemon Filling Ingredients",
+            "ingredients": [
+                {
+                    "name": "Lemon Zest",
+                    "quantity": 3,
+                    "unit": "tbsp",
+                    "metric_quantity": 44,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "AP Flour",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 60,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 3,
+                    "unit": "cups",
+                    "metric_quantity": 600,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 8,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temp"
+                    ]
+                },
+                {
+                    "name": "Lemon Juice",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "mL",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "for dusting"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Food Processor",
+            "optional": true
+        },
+        {
+            "name": "9x13 baking dish",
+            "optional": false
+        },
+        {
+            "name": "parchment paper",
+            "optional": false
+        },
+        {
+            "name": "spatula or bowl scraper",
+            "optional": false
+        },
+        {
+            "name": "knife",
+            "optional": false
+        },
+        {
+            "name": "zester",
+            "optional": false
+        },
+        {
+            "name": "fruit juicer",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "lemon-bars",
+        "citrus-dessert",
+        "baked-bars",
+        "tart",
+        "sweet",
+        "classic-dessert"
+    ]
+}

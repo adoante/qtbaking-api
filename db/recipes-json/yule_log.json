@@ -1,0 +1,320 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Yule Log",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/XfxPvzMTtaQ",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Buttercream Filling",
+            "ingredients": [
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 1.667,
+                    "unit": "cups",
+                    "metric_quantity": 190,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 114,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Coffee Liqueur",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "or substitute"
+                    ]
+                },
+                {
+                    "name": "Unsweetened Cocoa Powder",
+                    "quantity": 1.5,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "pinch"
+                    ]
+                },
+                {
+                    "name": "Mascarpone Cheese",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 57,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Sponge Cake",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "melted"
+                    ]
+                },
+                {
+                    "name": "Unsweetened Cocoa Powder",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 50,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Kosher Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 5,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "for dusting"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Ganache Frosting",
+            "ingredients": [
+                {
+                    "name": "Heavy Cream",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        "boiling hot"
+                    ]
+                },
+                {
+                    "name": "Dark Chocolate Chips",
+                    "quantity": 8,
+                    "unit": "oz",
+                    "metric_quantity": 225,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Meringue Mushrooms",
+            "ingredients": [
+                {
+                    "name": "Egg White",
+                    "quantity": 1,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Cream of Tartar",
+                    "quantity": 0.0625,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "1/16 tsp"
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "pinch"
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 25,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cocoa Powder",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "optional"
+                    ]
+                },
+                {
+                    "name": "Semi-Sweet Chocolate",
+                    "quantity": 1,
+                    "unit": "oz",
+                    "metric_quantity": 28,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "chopped"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Baking pan",
+            "optional": false
+        },
+        {
+            "name": "Mixer",
+            "optional": true
+        },
+        {
+            "name": "Parchment paper",
+            "optional": false
+        },
+        {
+            "name": "Kitchen towel",
+            "optional": false
+        },
+        {
+            "name": "Sifter",
+            "optional": true
+        }
+    ],
+    "notes": [
+        "Complex multi-component dessert",
+        "Requires rolling sponge cake while warm"
+    ],
+    "tags": [
+        "yule-log",
+        "rolled-cake",
+        "holiday-dessert",
+        "chocolate",
+        "french-dessert",
+        "complex-bake"
+    ]
+}

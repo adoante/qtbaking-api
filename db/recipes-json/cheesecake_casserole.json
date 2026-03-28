@@ -1,0 +1,196 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Cheesecake (9\u2019\u2019x13\u2019\u2019 Casserole Pan)",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/QnwkOP0PSwc",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Crust",
+            "ingredients": [
+                {
+                    "name": "Graham Crackers",
+                    "quantity": 1,
+                    "unit": "package",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "White Sugar",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "can substitute white sugar"
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 7,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Cream Cheese Filling",
+            "ingredients": [
+                {
+                    "name": "Cream Cheese",
+                    "quantity": 32,
+                    "unit": "oz",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Sour Cream",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "to taste"
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 4,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Optional Toppings",
+            "ingredients": [
+                {
+                    "name": "Frozen Berries",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Heavy Whipping Cream",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [],
+    "notes": [
+        "Ensure cream cheese is room temperature before use"
+    ],
+    "tags": [
+        "cheesecake",
+        "cream-cheese",
+        "graham-cracker-crust",
+        "baked-dessert",
+        "berry-topping",
+        "classic-dessert"
+    ]
+}

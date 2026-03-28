@@ -1,0 +1,232 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Sticky Pecan Buns",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/qf-WXQGR3Ug",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Dough",
+            "ingredients": [
+                {
+                    "name": "Whole Milk",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 135,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Active Dry or Instant Yeast",
+                    "quantity": 1.5,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "2 packets"
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 115,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 4.5,
+                    "unit": "cups",
+                    "metric_quantity": 558,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "plus more for surface"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Topping",
+            "ingredients": [
+                {
+                    "name": "Pecans",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 250,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "chopped"
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 115,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 135,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                },
+                {
+                    "name": "Whole Milk",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 180,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Maple Syrup",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 80,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Filling",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 60,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                },
+                {
+                    "name": "Ground Cinnamon",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "9x13 casserole dish",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Takes about 3 hours including rise time",
+        "Yeast dough requires proofing"
+    ],
+    "tags": [
+        "sticky-buns",
+        "pecan-buns",
+        "yeast-dough",
+        "sweet-rolls",
+        "baked",
+        "homemade"
+    ]
+}

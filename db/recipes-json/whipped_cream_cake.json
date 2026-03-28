@@ -1,0 +1,151 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Whipped Cream Cake",
+    "thumbnail": "",
+    "temp_fahrenheit": 325,
+    "temp_celsius": 163,
+    "video_url": "",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Cake",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 3,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 6,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cake Flour",
+                    "quantity": 3,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "sifted"
+                    ]
+                },
+                {
+                    "name": "Heavy Whipping Cream",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Fresh Berries or Fruit",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for garnish"
+                    ]
+                },
+                {
+                    "name": "Confectioners Sugar",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for garnish"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Mixing bowl",
+            "optional": false
+        },
+        {
+            "name": "Bundt pan",
+            "optional": false
+        },
+        {
+            "name": "Mixer",
+            "optional": false
+        },
+        {
+            "name": "Wire rack",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Bake about 1.5 hours",
+        "Cool before removing from pan"
+    ],
+    "tags": [
+        "whipped-cream-cake",
+        "bundt-cake",
+        "classic",
+        "baked-cake",
+        "homemade",
+        "fruit-garnish"
+    ]
+}

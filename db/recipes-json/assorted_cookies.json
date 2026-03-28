@@ -1,0 +1,257 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Assorted Cookies",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/_pixaZGmJjQ",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Peanut Butter Cyclops Cookies",
+            "ingredients": [
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 1.75,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Dark Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 8,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "cut into small pieces"
+                    ]
+                },
+                {
+                    "name": "Peanut Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "smooth or chunky",
+                        "not natural"
+                    ]
+                },
+                {
+                    "name": "Egg",
+                    "quantity": 1,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla or Almond Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Chocolate Kisses",
+                    "quantity": 30,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "unwrapped"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Snickerdoodles",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Flour",
+                    "quantity": 2.75,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cream Of Tartar",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 1.5,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [],
+    "notes": [
+        "They are VERY VERY easy and anyone can make it. All you need is an oven, bowls, and baking pan or sheet to bake them on. If you haven't tried either, they are two of my favorites and I encourage you to give it a go!"
+    ],
+    "tags": [
+        "peanut-butter-cookies",
+        "snickerdoodles",
+        "chocolate-kisses",
+        "easy-cookies",
+        "bake-along",
+        "classic-cookies"
+    ]
+}

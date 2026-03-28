@@ -1,0 +1,190 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Classic Shortbread Cookies",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/U5tI8-x3tqI",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature",
+                        "3 sticks"
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 3.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Optional Additions",
+            "ingredients": [
+                {
+                    "name": "Lemon",
+                    "quantity": 1,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for lemon rosemary cookies"
+                    ]
+                },
+                {
+                    "name": "Rosemary",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for lemon rosemary cookies"
+                    ]
+                },
+                {
+                    "name": "Turbinado Sugar",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for sugared shortbread"
+                    ]
+                },
+                {
+                    "name": "Crushed Pecans",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for cinnamon pecan"
+                    ]
+                },
+                {
+                    "name": "Ground Cinnamon",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for cinnamon pecan"
+                    ]
+                },
+                {
+                    "name": "Semi Sweet Chocolate",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for chocolate dipped"
+                    ]
+                },
+                {
+                    "name": "White Chocolate",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for chocolate dipped"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Large Mixing Bowl",
+            "optional": false
+        },
+        {
+            "name": "Smaller Bowls",
+            "optional": false
+        },
+        {
+            "name": "Cookie Sheets",
+            "optional": false
+        },
+        {
+            "name": "Parchment Paper or Foil or Cooking Spray",
+            "optional": false
+        },
+        {
+            "name": "Electric hand mixer",
+            "optional": true
+        }
+    ],
+    "notes": [
+        "Butter should be room temperature before use"
+    ],
+    "tags": [
+        "shortbread",
+        "butter-cookies",
+        "classic",
+        "customizable",
+        "baked-cookies",
+        "simple-recipe"
+    ]
+}

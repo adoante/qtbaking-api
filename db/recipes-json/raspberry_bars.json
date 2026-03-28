@@ -1,0 +1,125 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Raspberry Bars",
+    "thumbnail": "",
+    "temp_fahrenheit": 325,
+    "temp_celsius": 160,
+    "video_url": "https://www.youtube.com/embed/5wz8BtGl6NU",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "Oats",
+                    "quantity": 2.25,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Flour",
+                    "quantity": 2.25,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 1.333,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "cold"
+                    ]
+                },
+                {
+                    "name": "Raspberry Preserves",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "or other preserves"
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "9x9 or 9x13 pan",
+            "optional": false
+        },
+        {
+            "name": "Parchment paper",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "No mixer needed",
+        "Bake about 45 minutes until golden brown"
+    ],
+    "tags": [
+        "raspberry-bars",
+        "oat-bars",
+        "easy-recipe",
+        "baked-bars",
+        "jam-filled",
+        "homemade"
+    ]
+}

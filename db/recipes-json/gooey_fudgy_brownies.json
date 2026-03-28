@@ -1,0 +1,229 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "GOOEY FUDGY BROWNIES",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/MruTrcm_kGI",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113.5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Oil",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 14,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Instant Espresso Powder",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 12,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        "optional"
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 110,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 134,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Flour",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 60,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cocoa Powder",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 50,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Optional Chocolate Frosting",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 227,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 3,
+                    "unit": "cups",
+                    "metric_quantity": 360,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cocoa Powder",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 25,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Milk or Cream",
+                    "quantity": 3,
+                    "unit": "tbsp",
+                    "metric_quantity": 45,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Chocolate Sprinkles or Mini Chocolate Chips",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for topping"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "8x8 pan",
+            "optional": false
+        },
+        {
+            "name": "9x13 pan",
+            "optional": true
+        },
+        {
+            "name": "oven",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Best for fudgy texture, not cakey brownies"
+    ],
+    "tags": [
+        "fudgy-brownies",
+        "chocolate",
+        "easy-recipe",
+        "baked-dessert",
+        "rich",
+        "home-baking"
+    ]
+}

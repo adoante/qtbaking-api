@@ -1,0 +1,134 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Rainbow Pride Ice Cream Cake",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/pnsvj5pMKxM",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Cake",
+            "ingredients": [
+                {
+                    "name": "Flour",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 2.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 4,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "large"
+                    ]
+                },
+                {
+                    "name": "Food Coloring",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "primary colors"
+                    ]
+                },
+                {
+                    "name": "Ice Cream",
+                    "quantity": 1.5,
+                    "unit": "quart",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "any flavor"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Baking sheet",
+            "optional": false
+        },
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Parchment paper",
+            "optional": false
+        },
+        {
+            "name": "Ziploc bags or piping bags",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Thin cake baked on sheet pan",
+        "Requires freezing before serving",
+        "Takes about 2 hours to prepare"
+    ],
+    "tags": [
+        "ice-cream-cake",
+        "rainbow-cake",
+        "pride",
+        "frozen-dessert",
+        "colorful",
+        "celebration"
+    ]
+}

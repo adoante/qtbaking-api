@@ -1,0 +1,195 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Cream Puffs",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/FDoTFYULPoM",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Choux Pastry",
+            "ingredients": [
+                {
+                    "name": "Water",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 118,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Whole Milk",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 118,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 8,
+                    "unit": "tbsp",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 1.5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 4,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Cream Filling and Garnish",
+            "ingredients": [
+                {
+                    "name": "Heavy Whipping Cream",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 473,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        "chilled"
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 5,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Raspberries",
+                    "quantity": 28,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "optional"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Measuring Cups and Spoons",
+            "optional": false
+        },
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Saucepan",
+            "optional": false
+        },
+        {
+            "name": "Wooden Spoon or Spatula",
+            "optional": false
+        },
+        {
+            "name": "Baking Sheet",
+            "optional": false
+        },
+        {
+            "name": "Parchment Paper or Silicone Baking Mat",
+            "optional": false
+        },
+        {
+            "name": "Piping Bag",
+            "optional": false
+        },
+        {
+            "name": "Electric Mixer or Whisk",
+            "optional": true
+        },
+        {
+            "name": "Oven",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Difficulty: 3 stars",
+        "Time: ~3 hours"
+    ],
+    "tags": [
+        "cream-puffs",
+        "choux-pastry",
+        "whipped-cream",
+        "raspberries",
+        "advanced-baking",
+        "french-pastry"
+    ]
+}

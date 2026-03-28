@@ -1,0 +1,228 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Zucchini Bread",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/8KrNQQNwTak",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Zucchini Bread",
+            "ingredients": [
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 1.75,
+                    "unit": "cups",
+                    "metric_quantity": 220,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 1,
+                    "unit": "teaspoon",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 0.5,
+                    "unit": "teaspoon",
+                    "metric_quantity": 3,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "teaspoon",
+                    "metric_quantity": 3,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 1.5,
+                    "unit": "teaspoon",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "ground"
+                    ]
+                },
+                {
+                    "name": "Nutmeg",
+                    "quantity": 0.25,
+                    "unit": "teaspoon",
+                    "metric_quantity": 0.5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "ground"
+                    ]
+                },
+                {
+                    "name": "Vegetable Oil",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 110,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Unsweetened Apple Sauce",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 60,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 2,
+                    "unit": "teaspoons",
+                    "metric_quantity": 8,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Shredded Zucchini",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 180,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Semi-Sweet Chocolate Chips",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 180,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        "optional"
+                    ]
+                },
+                {
+                    "name": "Turbinado Sugar",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for topping"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Electric mixer or hand whisk",
+            "optional": false
+        },
+        {
+            "name": "9 x 5 inch loaf pan",
+            "optional": false
+        },
+        {
+            "name": "Parchment paper",
+            "optional": false
+        },
+        {
+            "name": "Spatula or bowl scraper",
+            "optional": false
+        },
+        {
+            "name": "Box grater",
+            "optional": false
+        },
+        {
+            "name": "Cooling rack",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "zucchini-bread",
+        "quick-bread",
+        "vegetable-baking",
+        "moist",
+        "home-baking",
+        "loaf"
+    ]
+}

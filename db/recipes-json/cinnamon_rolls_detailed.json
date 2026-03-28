@@ -1,0 +1,245 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Cinnamon Rolls",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/nxXefoJvxoI",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "For Dough",
+            "ingredients": [
+                {
+                    "name": "Whole Milk",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 6,
+                    "unit": "tbsp",
+                    "metric_quantity": 84,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Yeast",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 20,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 12.5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Water",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 3,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Flour",
+                    "quantity": 7,
+                    "unit": "cups",
+                    "metric_quantity": 840,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "5 to 7 cups"
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "For Filling",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 112,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 330,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 3,
+                    "unit": "tbsp",
+                    "metric_quantity": 24,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "For Frosting",
+            "ingredients": [
+                {
+                    "name": "Butter or Cream Cheese",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 112,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 3,
+                    "unit": "cups",
+                    "metric_quantity": 360,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "2 to 3 cups"
+                    ]
+                },
+                {
+                    "name": "Vanilla",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 30,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Baking sheets",
+            "optional": false
+        },
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Electric mixer",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Silicone baking mat or parchment paper",
+            "optional": false
+        },
+        {
+            "name": "Cooling rack",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "This recipe makes a large batch",
+        "Takes 3 to 4 hours",
+        "Can knead by hand if no mixer"
+    ],
+    "tags": [
+        "cinnamon-rolls",
+        "yeast-dough",
+        "sweet-bread",
+        "frosted",
+        "homemade",
+        "comfort-food"
+    ]
+}

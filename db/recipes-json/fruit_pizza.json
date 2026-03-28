@@ -1,0 +1,213 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Fruit Pizza",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/qGk4BISwt2w",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Sugar Cookie Crust",
+            "ingredients": [
+                {
+                    "name": "AP Flour",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 188,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "spooned and leveled"
+                    ]
+                },
+                {
+                    "name": "Cornstarch",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 2,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg",
+                    "quantity": 1,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Pure Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Topping",
+            "ingredients": [
+                {
+                    "name": "Cream Cheese",
+                    "quantity": 8,
+                    "unit": "oz",
+                    "metric_quantity": 226,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 3,
+                    "unit": "tbsp",
+                    "metric_quantity": 43,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 1.25,
+                    "unit": "cups",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "quantity": 3,
+                    "unit": "cups",
+                    "metric_quantity": 400,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "mandarin oranges",
+                        "strawberries",
+                        "blackberries",
+                        "blueberries",
+                        "raspberries",
+                        "kiwis"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Electric mixer/Whisks",
+            "optional": false
+        },
+        {
+            "name": "baking sheets",
+            "optional": false
+        },
+        {
+            "name": "parchment paper",
+            "optional": false
+        },
+        {
+            "name": "spatula or bowl scraper",
+            "optional": false
+        },
+        {
+            "name": "knife",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "fruit-pizza",
+        "sugar-cookie-crust",
+        "cream-cheese-frosting",
+        "fresh-fruit",
+        "baked-dessert",
+        "colorful"
+    ]
+}

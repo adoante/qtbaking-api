@@ -1,0 +1,203 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Spudnuts",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/oitl97hcT5M",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Dough",
+            "ingredients": [
+                {
+                    "name": "Yeast",
+                    "quantity": 2,
+                    "unit": "packages",
+                    "metric_quantity": 14,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 1.75,
+                    "unit": "cups",
+                    "metric_quantity": 420,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "warm"
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Mashed Potatoes",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 12,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Water",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "warm"
+                    ]
+                },
+                {
+                    "name": "Shortening",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 95,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Flour",
+                    "quantity": 7,
+                    "unit": "cups",
+                    "metric_quantity": 875,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "6-7 cups range"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Glaze",
+            "ingredients": [
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 1,
+                    "unit": "lb",
+                    "metric_quantity": 454,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Margarine",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 28,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Hot Water",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "add gradually"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [],
+    "notes": [
+        "Dough should be too soft to knead",
+        "Let dough rise twice before frying",
+        "Fry in hot grease and glaze after draining"
+    ],
+    "tags": [
+        "spudnuts",
+        "fried-dough",
+        "yeast-dough",
+        "potato-dough",
+        "glazed",
+        "homemade"
+    ]
+}

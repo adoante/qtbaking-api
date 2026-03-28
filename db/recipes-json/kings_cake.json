@@ -1,0 +1,247 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Kings Cake",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/e6lUMP1aP8I",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Bread",
+            "ingredients": [
+                {
+                    "name": "Milk",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Active Dry Yeast",
+                    "quantity": 1,
+                    "unit": "package",
+                    "metric_quantity": 0.25,
+                    "metric_unit": "oz",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Warm Water",
+                    "quantity": 0.312,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "0.25 cup + 1 tbsp + 1 tsp"
+                    ]
+                },
+                {
+                    "name": "White Sugar",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg",
+                    "quantity": 1,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Nutmeg",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 2.75,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Filling",
+            "ingredients": [
+                {
+                    "name": "Light Brown Sugar",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 165,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                },
+                {
+                    "name": "Ground Cinnamon",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 4,
+                    "unit": "tbsp",
+                    "metric_quantity": 57,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "melted"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Icing",
+            "ingredients": [
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 1.25,
+                    "unit": "cup",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sanding Sugar",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "green, purple, yellow"
+                    ]
+                },
+                {
+                    "name": "Plastic Baby",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "optional"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Pan",
+            "optional": false
+        },
+        {
+            "name": "Bowls",
+            "optional": false
+        },
+        {
+            "name": "Rolling Pin",
+            "optional": false
+        },
+        {
+            "name": "Oven",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Takes about 4 hours",
+        "Bread-style dough"
+    ],
+    "tags": [
+        "kings-cake",
+        "yeast-bread",
+        "mardi-gras",
+        "cinnamon-filling",
+        "iced",
+        "holiday-bake"
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Pumpkin Biscotti",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 4,
+                    "unit": "tbsp",
+                    "metric_quantity": 57,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 131,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pumpkin Pie Spice",
+                    "quantity": 1.25,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "or substitute spices"
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 0.75,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg",
+                    "quantity": 1,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pumpkin Puree",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 241,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Coarse Sugar or Cinnamon Sugar",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "optional topping"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Cookie sheet",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Biscotti is a crunchy cookie great for dipping"
+    ],
+    "tags": [
+        "pumpkin-biscotti",
+        "italian-cookie",
+        "crunchy",
+        "coffee-dip",
+        "fall-baking",
+        "homemade"
+    ]
+}

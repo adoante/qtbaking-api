@@ -1,0 +1,328 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Chai Cake",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Chai Cake Ingredients",
+            "ingredients": [
+                {
+                    "name": "All Purpose Flour",
+                    "quantity": 2.25,
+                    "unit": "cups",
+                    "metric_quantity": 282,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 8,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Ginger",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 3,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Allspice",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 1,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Nutmeg",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 1,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cardamom",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 2,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Ground Cloves",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 1,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 6,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 1,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 3,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated White Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 110,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 3,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temp"
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 13,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Whole Milk",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "room temp"
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 10,
+                    "unit": "tbsp",
+                    "metric_quantity": 140,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Chai Milk Soak",
+            "ingredients": [
+                {
+                    "name": "Sweetened Condensed Milk",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Chai Tea Bags",
+                    "quantity": 2,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Whole Milk",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Brown Butter Cream Frosting",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 1.25,
+                    "unit": "cup",
+                    "metric_quantity": 280,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cream Cheese",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 226,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 260,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Hand mixer or stand mixer",
+            "optional": false
+        },
+        {
+            "name": "Cake Pan",
+            "optional": false
+        },
+        {
+            "name": "Parchment Paper",
+            "optional": false
+        },
+        {
+            "name": "Spatula/Bowl scraper",
+            "optional": false
+        },
+        {
+            "name": "Cooling Rack",
+            "optional": false
+        },
+        {
+            "name": "Sauce Pan",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "chai-cake",
+        "spiced-cake",
+        "cardamom",
+        "cream-cheese-frosting",
+        "baked-dessert",
+        "layer-cake"
+    ]
+}

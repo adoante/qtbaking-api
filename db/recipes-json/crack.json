@@ -1,0 +1,129 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Crack",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/Hx4fzBOJCPk",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "Graham Crackers",
+                    "quantity": 1,
+                    "unit": "box",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pecans",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "or any nut"
+                    ]
+                },
+                {
+                    "name": "Chocolate Chips",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "White Chocolate Chips",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for decoration"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "foil",
+            "optional": false
+        },
+        {
+            "name": "cookie sheet",
+            "optional": false
+        },
+        {
+            "name": "mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "oven",
+            "optional": false
+        },
+        {
+            "name": "pot",
+            "optional": false
+        },
+        {
+            "name": "stove top",
+            "optional": false
+        },
+        {
+            "name": "measuring cups",
+            "optional": false
+        },
+        {
+            "name": "mixing spoons",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Optional nuts can be substituted with any type"
+    ],
+    "tags": [
+        "graham-cracker-bars",
+        "chocolate",
+        "sweet-snack",
+        "easy-recipe",
+        "baked-treat",
+        "dessert-bars"
+    ]
+}

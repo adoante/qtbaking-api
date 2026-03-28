@@ -1,0 +1,230 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Pumpkin Cake Roll",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Cake",
+            "ingredients": [
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 95,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Ground Cinnamon",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pumpkin Pie Spice",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 3,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Canned Pumpkin Puree",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 90,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "for rolling"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Cream Cheese Frosting",
+            "ingredients": [
+                {
+                    "name": "Cream Cheese",
+                    "quantity": 6,
+                    "unit": "oz",
+                    "metric_quantity": 170,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 60,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 1.75,
+                    "unit": "cups",
+                    "metric_quantity": 210,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Cookie sheet",
+            "optional": false
+        },
+        {
+            "name": "Parchment paper or dish towel",
+            "optional": false
+        },
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Hand mixer",
+            "optional": true
+        }
+    ],
+    "notes": [
+        "Roll cake while warm using parchment or towel",
+        "Estimated time about 1-2 hours"
+    ],
+    "tags": [
+        "pumpkin-cake-roll",
+        "cream-cheese-frosting",
+        "rolled-cake",
+        "fall-baking",
+        "dessert",
+        "homemade"
+    ]
+}

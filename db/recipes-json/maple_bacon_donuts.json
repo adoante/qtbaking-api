@@ -1,0 +1,274 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Maple Bacon Donuts",
+    "thumbnail": "",
+    "temp_fahrenheit": 110,
+    "temp_celsius": 43,
+    "video_url": "https://www.youtube.com/embed/1RdIYo8zmBY",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Donut Dough",
+            "ingredients": [
+                {
+                    "name": "Whole Milk",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        "warmed to about 110F"
+                    ]
+                },
+                {
+                    "name": "Active Dry Yeast",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 65,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 6,
+                    "unit": "tbsp",
+                    "metric_quantity": 86,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "melted and cooled"
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Ground Nutmeg",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "or cinnamon alternative"
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 4,
+                    "unit": "cups",
+                    "metric_quantity": 500,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "plus more as needed"
+                    ]
+                },
+                {
+                    "name": "Vegetable Oil",
+                    "quantity": 2,
+                    "unit": "quarts",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "for frying"
+                    ]
+                },
+                {
+                    "name": "Nonstick Spray",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Toppings",
+            "ingredients": [
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 3,
+                    "unit": "tbsp",
+                    "metric_quantity": 43,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pure Maple Syrup",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Confectioners Sugar",
+                    "quantity": 1.75,
+                    "unit": "cups",
+                    "metric_quantity": 195,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "sifted"
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.125,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Maple Extract",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "optional"
+                    ]
+                },
+                {
+                    "name": "Cooked Bacon",
+                    "quantity": 12,
+                    "unit": "slices",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "cut in half"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Stand Mixer",
+            "optional": false
+        },
+        {
+            "name": "Rolling Pin",
+            "optional": false
+        },
+        {
+            "name": "Doughnut Cutter",
+            "optional": false
+        },
+        {
+            "name": "Parchment Paper",
+            "optional": false
+        },
+        {
+            "name": "Baking Sheets",
+            "optional": false
+        },
+        {
+            "name": "Large Pot",
+            "optional": false
+        },
+        {
+            "name": "Thermometer",
+            "optional": true
+        },
+        {
+            "name": "Metal Spatula or Slotted Spoon",
+            "optional": false
+        },
+        {
+            "name": "Cooling Rack",
+            "optional": false
+        },
+        {
+            "name": "Sieve",
+            "optional": false
+        },
+        {
+            "name": "Small Saucepan",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Oil amount depends on pot size",
+        "Rise time varies depending on yeast type",
+        "Total time about 2.5 to 3 hours"
+    ],
+    "tags": [
+        "maple-bacon-donuts",
+        "fried-dough",
+        "yeast-dough",
+        "sweet-savory",
+        "homemade",
+        "bacon"
+    ]
+}

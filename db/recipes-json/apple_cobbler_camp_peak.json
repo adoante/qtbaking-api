@@ -1,0 +1,223 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Apple Cobbler - Camp Peak",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/bIMs2G9laE8",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Fruit Filling Ingredients",
+            "ingredients": [
+                {
+                    "name": "Granny Smith Apples",
+                    "quantity": 4,
+                    "unit": "cups",
+                    "metric_quantity": 800,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Juice",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 14,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 24,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Nutmeg",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 1,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 1,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 14,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 0.5,
+                    "unit": "cups",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Cobbler Topping Ingredients",
+            "ingredients": [
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 1,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 2,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 50,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 6,
+                    "unit": "tbsp",
+                    "metric_quantity": 85,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Hand mixer or stand mixer",
+            "optional": false
+        },
+        {
+            "name": "Whisk",
+            "optional": false
+        },
+        {
+            "name": "Spatula/Bowl scraper",
+            "optional": false
+        },
+        {
+            "name": "Dutch Oven",
+            "optional": false
+        },
+        {
+            "name": "Knife",
+            "optional": false
+        },
+        {
+            "name": "Foil",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "apple-cobbler",
+        "granny-smith",
+        "cinnamon-spice",
+        "dutch-oven",
+        "baked-fruit",
+        "camp-recipe"
+    ]
+}

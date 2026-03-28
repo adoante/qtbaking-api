@@ -1,0 +1,195 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Lemon Poppy Scones",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/I55uIkPKqlo",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "All-purpose flour",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 240,
+                    "metric_unit": "grams",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "grams",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking powder",
+                    "quantity": 2.5,
+                    "unit": "teaspoons",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "teaspoon",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon zest",
+                    "quantity": 2,
+                    "unit": "lemons",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "from 2 lemons"
+                    ]
+                },
+                {
+                    "name": "Unsalted butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "grams",
+                    "optional": false,
+                    "notes": [
+                        "frozen"
+                    ]
+                },
+                {
+                    "name": "Heavy cream",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg",
+                    "quantity": 1,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla extract",
+                    "quantity": 0.5,
+                    "unit": "teaspoon",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Poppy seeds",
+                    "quantity": 1,
+                    "unit": "tablespoon",
+                    "metric_quantity": 9,
+                    "metric_unit": "grams",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 2.5,
+                    "unit": "tablespoons",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "2-3 tbsp"
+                    ]
+                },
+                {
+                    "name": "Powdered sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "grams",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "mixing bowl",
+            "optional": false
+        },
+        {
+            "name": "Box grater",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Whisk",
+            "optional": false
+        },
+        {
+            "name": "Baking sheet",
+            "optional": false
+        },
+        {
+            "name": "Parchment paper",
+            "optional": false
+        },
+        {
+            "name": "Citrus zester",
+            "optional": false
+        },
+        {
+            "name": "Citrus juicer",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Very easy recipe"
+    ],
+    "tags": [
+        "lemon-poppy-scones",
+        "scones",
+        "citrus-baking",
+        "easy-recipe",
+        "breakfast",
+        "baked-goods"
+    ]
+}

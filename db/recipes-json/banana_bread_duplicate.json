@@ -1,0 +1,155 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Banana Bread",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/g6HWR40CKzA",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Banana Bread Ingredients",
+            "ingredients": [
+                {
+                    "name": "Ripe Bananas",
+                    "quantity": 3,
+                    "unit": "medium",
+                    "metric_quantity": 360,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "peeled",
+                        "2-3 bananas"
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Large Eggs",
+                    "quantity": 2,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "AP Flour",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 240,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 4,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 2,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sour Cream",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Electric mixer/Whisks",
+            "optional": false
+        },
+        {
+            "name": "9 inch loaf pan",
+            "optional": false
+        },
+        {
+            "name": "parchment paper",
+            "optional": false
+        },
+        {
+            "name": "spatula or bowl scraper",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "banana-bread",
+        "ripe-bananas",
+        "quick-bread",
+        "home-baking",
+        "classic-recipe",
+        "loaf"
+    ]
+}

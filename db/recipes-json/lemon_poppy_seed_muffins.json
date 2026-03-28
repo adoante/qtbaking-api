@@ -1,0 +1,194 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Lemon Poppy Seed Muffins",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/RxtGbuzqxBo",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "All-purpose flour",
+                    "quantity": 2.25,
+                    "unit": "cups",
+                    "metric_quantity": 313,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking powder",
+                    "quantity": 2,
+                    "unit": "teaspoons",
+                    "metric_quantity": 8,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking soda",
+                    "quantity": 0.25,
+                    "unit": "teaspoon",
+                    "metric_quantity": 2,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Poppy seeds",
+                    "quantity": 2,
+                    "unit": "tablespoons",
+                    "metric_quantity": 23,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 186,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon zest",
+                    "quantity": 2,
+                    "unit": "tablespoons",
+                    "metric_quantity": 6,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Whole milk greek yogurt",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 245,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Whole milk",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 78,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "melted"
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 2,
+                    "unit": "large",
+                    "metric_quantity": 110,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": 1,
+                    "unit": "tablespoon",
+                    "metric_quantity": 15,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla extract",
+                    "quantity": 1,
+                    "unit": "teaspoon",
+                    "metric_quantity": 5,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Kosher salt",
+                    "quantity": 0.25,
+                    "unit": "teaspoon",
+                    "metric_quantity": 2,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Cupcake pan",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups",
+            "optional": false
+        },
+        {
+            "name": "Cupcake liners",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Super easy recipe"
+    ],
+    "tags": [
+        "lemon-poppy-muffins",
+        "muffins",
+        "citrus-baking",
+        "easy-recipe",
+        "breakfast",
+        "baked-goods"
+    ]
+}

@@ -1,0 +1,243 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Coffee Cake",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/e2fHDg84nVU",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Cake",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 1,
+                    "unit": "stick",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 5,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg",
+                    "quantity": 1,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Flour",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 250,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 10,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 180,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "pinch"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Filling",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 3,
+                    "unit": "tbsp",
+                    "metric_quantity": 43,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 9,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Flour",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 63,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 110,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Toppings",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 5,
+                    "unit": "tbsp",
+                    "metric_quantity": 70,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "softened"
+                    ]
+                },
+                {
+                    "name": "Flour",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 96,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 110,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 8,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Mixer",
+            "optional": false
+        },
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Food Processor",
+            "optional": true
+        },
+        {
+            "name": "Fork or Pastry Cutter",
+            "optional": true
+        },
+        {
+            "name": "8x8 or 9x9 pan",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Time: ~1.5 hour"
+    ],
+    "tags": [
+        "coffee-cake",
+        "cinnamon",
+        "crumb-topping",
+        "baked-cake",
+        "easy-recipe",
+        "home-baking"
+    ]
+}

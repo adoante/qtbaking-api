@@ -1,0 +1,170 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Ninja\u2019s Cheesecake",
+    "thumbnail": "",
+    "temp_fahrenheit": 350,
+    "temp_celsius": 177,
+    "video_url": "",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Crust",
+            "ingredients": [
+                {
+                    "name": "Graham Cracker Crumbs",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 5,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "melted"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Cheesecake Filling",
+            "ingredients": [
+                {
+                    "name": "Cream Cheese",
+                    "quantity": 32,
+                    "unit": "oz",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Sour Cream",
+                    "quantity": 8,
+                    "unit": "oz",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Fresh Lemon Juice",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 3,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Springform pan",
+            "optional": false
+        },
+        {
+            "name": "Large pan for water bath",
+            "optional": false
+        },
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Stand mixer or hand mixer",
+            "optional": false
+        },
+        {
+            "name": "Blender or food processor",
+            "optional": true
+        },
+        {
+            "name": "Aluminum foil",
+            "optional": false
+        },
+        {
+            "name": "Rubber spatula",
+            "optional": false
+        },
+        {
+            "name": "Oven",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Use a water bath to prevent rubbery texture",
+        "Bake 55-70 minutes and cool gradually",
+        "Chill at least 4 hours or overnight"
+    ],
+    "tags": [
+        "cheesecake",
+        "water-bath",
+        "cream-cheese",
+        "baked-dessert",
+        "classic",
+        "smooth-texture"
+    ]
+}

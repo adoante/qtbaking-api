@@ -1,0 +1,180 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Pumpkin Chocolate Chip Cookies",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/-8TUYrJ0a5k",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "Pumpkin Puree",
+                    "quantity": 1,
+                    "unit": "can",
+                    "metric_quantity": 425,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 300,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Canola Oil",
+                    "quantity": 0.625,
+                    "unit": "cup",
+                    "metric_quantity": 150,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        "1/2 cup + 2 tbsp"
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 10,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cake Flour",
+                    "quantity": 2.5,
+                    "unit": "cups",
+                    "metric_quantity": 310,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "or all-purpose flour"
+                    ]
+                },
+                {
+                    "name": "Pumpkin Pie Spice",
+                    "quantity": 5,
+                    "unit": "tsp",
+                    "metric_quantity": 5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 7.5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 7.5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Kosher Salt",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Cinnamon",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 2.5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Mini Semi-Sweet Chocolate Chips",
+                    "quantity": 1.25,
+                    "unit": "cups",
+                    "metric_quantity": 225,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Baking Sheets",
+            "optional": false
+        },
+        {
+            "name": "Parchment paper",
+            "optional": true
+        },
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Electric Mixer or whisk",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Cookie scoop or spoon",
+            "optional": false
+        },
+        {
+            "name": "Cooling rack",
+            "optional": true
+        }
+    ],
+    "notes": [
+        "Easy recipe"
+    ],
+    "tags": [
+        "pumpkin-cookies",
+        "chocolate-chip",
+        "fall-baking",
+        "soft-cookies",
+        "easy-recipe",
+        "homemade"
+    ]
+}

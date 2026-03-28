@@ -1,0 +1,151 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Chicken Croissant",
+    "thumbnail": "",
+    "temp_fahrenheit": 350,
+    "temp_celsius": 177,
+    "video_url": "",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Main Ingredients",
+            "ingredients": [
+                {
+                    "name": "Cooked Chicken",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "shredded"
+                    ]
+                },
+                {
+                    "name": "Cream Cheese",
+                    "quantity": 1,
+                    "unit": "stick",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Pepper",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Garlic Powder",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Seasoning",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "salt, pepper etc to taste"
+                    ]
+                },
+                {
+                    "name": "Canned Mushrooms",
+                    "quantity": 8,
+                    "unit": "oz",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "chopped"
+                    ]
+                },
+                {
+                    "name": "Croissant Dough",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "ready made preferred"
+                    ]
+                },
+                {
+                    "name": "Melted Butter",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "for coating"
+                    ]
+                },
+                {
+                    "name": "Breadcrumbs",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "for coating"
+                    ]
+                },
+                {
+                    "name": "Almond Powder",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "for coating"
+                    ]
+                },
+                {
+                    "name": "Gravy",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "for serving"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [],
+    "notes": [
+        "Bake for 15 minutes"
+    ],
+    "tags": [
+        "chicken-croissant",
+        "savory-pastry",
+        "cream-cheese",
+        "baked-dish",
+        "comfort-food",
+        "easy-meal"
+    ]
+}

@@ -1,0 +1,261 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Lemon Cheesecake",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/XPnVezBFQsQ",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Crust",
+            "ingredients": [
+                {
+                    "name": "Graham Cracker Crumbs",
+                    "quantity": 2.25,
+                    "unit": "cups",
+                    "metric_quantity": 270,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 3,
+                    "unit": "tbsp",
+                    "metric_quantity": 37.5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 7,
+                    "unit": "tbsp",
+                    "metric_quantity": 98,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Filling",
+            "ingredients": [
+                {
+                    "name": "Cream Cheese",
+                    "quantity": 32,
+                    "unit": "oz",
+                    "metric_quantity": 908,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "room temperature"
+                    ]
+                },
+                {
+                    "name": "Sour Cream",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 164.15,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Juice",
+                    "quantity": 3,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Zest",
+                    "quantity": 3,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "pinch"
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 4,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Lemon Curd",
+            "ingredients": [
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Zest",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg Yolks",
+                    "quantity": 6,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lemon Juice",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "ml",
+                    "optional": true,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113.5,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        "cold"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Electric mixer",
+            "optional": false
+        },
+        {
+            "name": "Rubber spatula",
+            "optional": false
+        },
+        {
+            "name": "Zester",
+            "optional": false
+        },
+        {
+            "name": "Juicer",
+            "optional": false
+        },
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Small saucepan",
+            "optional": false
+        },
+        {
+            "name": "Whisk",
+            "optional": false
+        },
+        {
+            "name": "Fine mesh strainer",
+            "optional": true
+        }
+    ],
+    "notes": [
+        "Use at least a 9x13 pan to avoid overflow",
+        "Bake time about 1 hour",
+        "Lemon curd is optional"
+    ],
+    "tags": [
+        "lemon-cheesecake",
+        "citrus-dessert",
+        "cream-cheese",
+        "graham-crust",
+        "baked-dessert",
+        "tangy"
+    ]
+}

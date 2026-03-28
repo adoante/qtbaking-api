@@ -1,0 +1,292 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Apple Streusel Muffins",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/qNL-PvbBzFg",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Muffin Ingredients",
+            "ingredients": [
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 400,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vegetable Oil",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 360,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 3,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 2,
+                    "unit": "teaspoons",
+                    "metric_quantity": 10,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "AP Flour",
+                    "quantity": 3,
+                    "unit": "cups",
+                    "metric_quantity": 375,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 1,
+                    "unit": "teaspoon",
+                    "metric_quantity": 5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking Soda",
+                    "quantity": 1,
+                    "unit": "teaspoon",
+                    "metric_quantity": 5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granny Smith Apples",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 300,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "finely chopped"
+                    ]
+                },
+                {
+                    "name": "Ground Cinnamon",
+                    "quantity": 2,
+                    "unit": "teaspoons",
+                    "metric_quantity": 5,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Walnuts or Pecans",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "g",
+                    "optional": true,
+                    "notes": [
+                        "chopped"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Streusel Topping Ingredients",
+            "ingredients": [
+                {
+                    "name": "Salted Butter",
+                    "quantity": 6,
+                    "unit": "tablespoons",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "cold"
+                    ]
+                },
+                {
+                    "name": "AP Flour",
+                    "quantity": 0.667,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Old Fashioned Oats",
+                    "quantity": 0.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Light Brown Sugar",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                },
+                {
+                    "name": "Ground Cinnamon",
+                    "quantity": 0.5,
+                    "unit": "teaspoon",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Maple Glaze Ingredients",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 4,
+                    "unit": "tablespoons",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "melted"
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 60,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "sifted"
+                    ]
+                },
+                {
+                    "name": "Maple Syrup",
+                    "quantity": 3,
+                    "unit": "tablespoons",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "to taste if using unsalted butter"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Whisks",
+            "optional": false
+        },
+        {
+            "name": "Spatula or fork",
+            "optional": false
+        },
+        {
+            "name": "muffin tins",
+            "optional": false
+        },
+        {
+            "name": "baking cups",
+            "optional": false
+        },
+        {
+            "name": "non stick spray",
+            "optional": false
+        },
+        {
+            "name": "electric mixer or hand whisk",
+            "optional": false
+        },
+        {
+            "name": "cookie scoop or large spoon",
+            "optional": false
+        },
+        {
+            "name": "cooling rack",
+            "optional": true
+        }
+    ],
+    "notes": [
+        "Difficulty Rating: 1.5 stars"
+    ],
+    "tags": [
+        "apple-muffins",
+        "streusel",
+        "maple-glaze",
+        "granny-smith",
+        "cinnamon",
+        "baked-snack"
+    ]
+}

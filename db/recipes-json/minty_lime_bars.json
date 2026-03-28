@@ -1,0 +1,253 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Minty Lime Bars",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/ZjplpQKJmLo",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Shortbread Crust",
+            "ingredients": [
+                {
+                    "name": "Butter or Pan Spray",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "for greasing"
+                    ]
+                },
+                {
+                    "name": "Lime Zest",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "from about 3 limes"
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 50,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 130,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Fresh Mint",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "finely chopped"
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 0.25,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "cold"
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Lime Curd",
+            "ingredients": [
+                {
+                    "name": "Fresh Lime Juice",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 170,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "from about 7 limes"
+                    ]
+                },
+                {
+                    "name": "Fresh Lemon Juice",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 57,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "from about 1 lemon"
+                    ]
+                },
+                {
+                    "name": "Cornstarch",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Granulated Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 200,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg Yolks",
+                    "quantity": 5,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg",
+                    "quantity": 1,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 6,
+                    "unit": "tbsp",
+                    "metric_quantity": 85,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "cold"
+                    ]
+                },
+                {
+                    "name": "Confectioners\u2019 Sugar and Lime Zest",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for topping"
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "8x8 or 9x9 pan",
+            "optional": false
+        },
+        {
+            "name": "Aluminium foil",
+            "optional": false
+        },
+        {
+            "name": "Bowls",
+            "optional": false
+        },
+        {
+            "name": "Oven",
+            "optional": false
+        },
+        {
+            "name": "Pot",
+            "optional": false
+        },
+        {
+            "name": "Whisk",
+            "optional": false
+        },
+        {
+            "name": "Stove top",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Double recipe if using 9x13 pan",
+        "No mixer required"
+    ],
+    "tags": [
+        "mint-lime-bars",
+        "citrus-dessert",
+        "shortbread",
+        "lime-curd",
+        "baked-bars",
+        "fresh-mint"
+    ]
+}

@@ -1,0 +1,135 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Clam Chowder",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/oitl97hcT5M",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Clam Chowder Ingredients",
+            "ingredients": [
+                {
+                    "name": "Clams",
+                    "quantity": 2,
+                    "unit": "cans",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Potatoes",
+                    "quantity": 2,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Celery",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Onions",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 4,
+                    "unit": "tbsp",
+                    "metric_quantity": 57,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "All Purpose Flour",
+                    "quantity": 0.75,
+                    "unit": "cups",
+                    "metric_quantity": 95,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 2,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Half and Half",
+                    "quantity": 4,
+                    "unit": "cups",
+                    "metric_quantity": 960,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Knife",
+            "optional": false
+        },
+        {
+            "name": "Cutting Board",
+            "optional": false
+        },
+        {
+            "name": "Pot",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "clam-chowder",
+        "seafood-soup",
+        "creamy",
+        "classic-recipe",
+        "comfort-food",
+        "savory"
+    ]
+}

@@ -1,0 +1,216 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Eclairs",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/ME5qPdWG7Js",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Shells",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 9,
+                    "unit": "tbsp",
+                    "metric_quantity": 135,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Water",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 2.5,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Sugar",
+                    "quantity": 2,
+                    "unit": "tsp",
+                    "metric_quantity": 10,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Flour",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Eggs",
+                    "quantity": 4,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "lightly beaten"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Pastry Cream",
+            "ingredients": [
+                {
+                    "name": "Vanilla Instant Pudding",
+                    "quantity": 1,
+                    "unit": "package",
+                    "metric_quantity": 3.9,
+                    "metric_unit": "oz",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Heavy Whipping Cream",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Glaze",
+            "ingredients": [
+                {
+                    "name": "Semi Sweet Chocolate Chips",
+                    "quantity": 1.5,
+                    "unit": "cup",
+                    "metric_quantity": 360,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Heavy Cream",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        "warm"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Optional Decoration",
+            "ingredients": [
+                {
+                    "name": "Store-bought Frosting",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for flowers"
+                    ]
+                },
+                {
+                    "name": "Food Coloring",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "optional"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Parchment Paper",
+            "optional": false
+        },
+        {
+            "name": "Pastry Bags or Ziplock Bags",
+            "optional": false
+        },
+        {
+            "name": "Baking Sheet",
+            "optional": false
+        },
+        {
+            "name": "Medium Pot",
+            "optional": false
+        },
+        {
+            "name": "Wire Cooling Rack",
+            "optional": false
+        },
+        {
+            "name": "Piping Tips",
+            "optional": true
+        }
+    ],
+    "notes": [
+        "Petal tip optional for decoration"
+    ],
+    "tags": [
+        "eclairs",
+        "choux-pastry",
+        "chocolate-glaze",
+        "pastry-cream",
+        "french-dessert",
+        "advanced-baking"
+    ]
+}

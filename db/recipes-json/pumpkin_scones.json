@@ -1,0 +1,258 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Pumpkin Scones",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/PxCtTOcvVXc",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Pumpkin Scones",
+            "ingredients": [
+                {
+                    "name": "All-Purpose Flour",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 250,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "spooned & leveled"
+                    ]
+                },
+                {
+                    "name": "Baking Powder",
+                    "quantity": 2.5,
+                    "unit": "tsp",
+                    "metric_quantity": 10,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Ground Cinnamon",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 2.6,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pumpkin Pie Spice",
+                    "quantity": 1.5,
+                    "unit": "tsp",
+                    "metric_quantity": 3,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 3,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 113,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "frozen"
+                    ]
+                },
+                {
+                    "name": "Heavy Cream",
+                    "quantity": 0.458,
+                    "unit": "cup",
+                    "metric_quantity": 105,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        "1/3 cup + 2 tbsp"
+                    ]
+                },
+                {
+                    "name": "Egg",
+                    "quantity": 1,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pumpkin Puree",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 115,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "blotted"
+                    ]
+                },
+                {
+                    "name": "Light Brown Sugar",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 100,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 5,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Coarse Sugar",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": true,
+                    "notes": [
+                        "for topping"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Maple Glaze",
+            "ingredients": [
+                {
+                    "name": "Butter",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 28,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 112,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        "sifted"
+                    ]
+                },
+                {
+                    "name": "Maple Syrup",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 80,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "pinch"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing Bowls",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Whisks",
+            "optional": false
+        },
+        {
+            "name": "Box Grater",
+            "optional": false
+        },
+        {
+            "name": "Pastry cutter or fork",
+            "optional": false
+        },
+        {
+            "name": "Sharp knife",
+            "optional": false
+        },
+        {
+            "name": "Baking sheets",
+            "optional": false
+        },
+        {
+            "name": "Parchment paper or silicone baking mats",
+            "optional": false
+        },
+        {
+            "name": "Pastry brush",
+            "optional": false
+        },
+        {
+            "name": "Small saucepan",
+            "optional": false
+        },
+        {
+            "name": "Cooling rack",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Soft, flaky, crumbly texture",
+        "Easy recipe"
+    ],
+    "tags": [
+        "pumpkin-scones",
+        "fall-baking",
+        "maple-glaze",
+        "flaky",
+        "easy-recipe",
+        "homemade"
+    ]
+}

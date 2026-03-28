@@ -1,0 +1,234 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Mochi Donuts",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/ZvIxNoVG_Io",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Donuts",
+            "ingredients": [
+                {
+                    "name": "Mochiko flour",
+                    "quantity": 150,
+                    "unit": "g",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Tapioca starch",
+                    "quantity": 115,
+                    "unit": "g",
+                    "metric_quantity": 115,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Baking powder",
+                    "quantity": 1.75,
+                    "unit": "tsp",
+                    "metric_quantity": 8,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0.8,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "White granulated sugar",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 75,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Egg",
+                    "quantity": 1,
+                    "unit": "large",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Whole milk",
+                    "quantity": 5,
+                    "unit": "fl oz",
+                    "metric_quantity": 150,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vegetable shortening",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 24,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vegetable oil",
+                    "quantity": 2,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "for frying"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Vanilla Glaze",
+            "ingredients": [
+                {
+                    "name": "Powdered sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Whole milk",
+                    "quantity": 1.5,
+                    "unit": "fl oz",
+                    "metric_quantity": 48,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla extract",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Strawberry Glaze",
+            "ingredients": [
+                {
+                    "name": "Powdered sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 120,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Whole milk",
+                    "quantity": 1,
+                    "unit": "fl oz",
+                    "metric_quantity": 32,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Strawberry preserves or jam",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "Mixing bowls",
+            "optional": false
+        },
+        {
+            "name": "Whisk or electric mixer",
+            "optional": false
+        },
+        {
+            "name": "Measuring cups and spoons",
+            "optional": false
+        },
+        {
+            "name": "Deep pan",
+            "optional": false
+        },
+        {
+            "name": "Parchment paper",
+            "optional": false
+        },
+        {
+            "name": "Piping bag or ziploc bag",
+            "optional": false
+        }
+    ],
+    "notes": [
+        "Requires specialty flours/starches",
+        "Frying required",
+        "Estimated time about 2.5 hours"
+    ],
+    "tags": [
+        "mochi-donuts",
+        "fried-dough",
+        "glazed",
+        "chewy-texture",
+        "specialty-flour",
+        "homemade"
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "id": 0,
+    "slug": "",
+    "title": "Key Lime Pie",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/ewJyv_VwYiE",
+    "created_at": "",
+    "components": [
+        {
+            "id": 0,
+            "name": "Crust",
+            "ingredients": [
+                {
+                    "name": "Graham Cracker Crumbs",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "from about 12 whole graham crackers"
+                    ]
+                },
+                {
+                    "name": "Light Brown Sugar",
+                    "quantity": 0.333,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "packed"
+                    ]
+                },
+                {
+                    "name": "Unsalted Butter",
+                    "quantity": 4,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "melted"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Filling",
+            "ingredients": [
+                {
+                    "name": "Sweetened Condensed Milk",
+                    "quantity": 2,
+                    "unit": "14-oz cans",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Greek Yogurt",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "2% or whole milk"
+                    ]
+                },
+                {
+                    "name": "Lime Zest",
+                    "quantity": 1,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "grated"
+                    ]
+                },
+                {
+                    "name": "Lime Juice",
+                    "quantity": 0.75,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "fresh"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 0,
+            "name": "Toppings",
+            "ingredients": [
+                {
+                    "name": "Heavy Cream",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "cold"
+                    ]
+                },
+                {
+                    "name": "Confectioners' Sugar",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Lime Zest",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "grated"
+                    ]
+                },
+                {
+                    "name": "Lime Slices",
+                    "quantity": 10,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "8-10 thin slices"
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [
+        {
+            "name": "pie pan or casserole pan",
+            "optional": false
+        },
+        {
+            "name": "oven",
+            "optional": false
+        },
+        {
+            "name": "bowls",
+            "optional": false
+        }
+    ],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "key-lime-pie",
+        "graham-cracker-crust",
+        "citrus-dessert",
+        "no-bake-style",
+        "fresh-lime",
+        "classic-dessert"
+    ]
+}
