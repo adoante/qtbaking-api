@@ -1,12 +1,12 @@
 {
     "id": 0,
-    "slug": "",
+    "slug": "ZjplpQKJmLo",
     "title": "Minty Lime Bars",
     "thumbnail": "",
     "temp_fahrenheit": 0,
     "temp_celsius": 0,
     "video_url": "https://www.youtube.com/embed/ZjplpQKJmLo",
-    "created_at": "",
+    "created_at": "2022-02-20 18:48:58",
     "components": [
         {
             "id": 0,
@@ -184,7 +184,7 @@
                     ]
                 },
                 {
-                    "name": "Confectioners\u2019 Sugar and Lime Zest",
+                    "name": "Confectioners’ Sugar and Lime Zest",
                     "quantity": 0,
                     "unit": "",
                     "metric_quantity": 0,

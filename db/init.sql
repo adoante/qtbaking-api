@@ -1,27 +1,31 @@
-CREATE TABLE IF NOT EXISTS recipes (
+CREATE TABLE IF NOT EXISTS vods (
     id SERIAL PRIMARY KEY,
     slug TEXT UNIQUE NOT NULL,
     title TEXT NOT NULL,
+    video_url TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS recipes (
+    id SERIAL PRIMARY KEY,
+    vod_id INTEGER REFERENCES vods(id) ON DELETE CASCADE,
     thumbnail TEXT,
     temp_fahrenheit INTEGER,
-    temp_celsius INTEGER,
-    video_url TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    temp_celsius INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS components (
     id SERIAL PRIMARY KEY,
-    recipe_id INTEGER REFERENCES recipes(id) ON DELETE CASCADE,
-    component_id TEXT,
-    name TEXT
+    recipe_id INTEGER REFERENCES recipes(id) ON DELETE CASCADE NOT NULL,
+    name TEXT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS ingredients (
     id SERIAL PRIMARY KEY,
-    component_id INTEGER REFERENCES components(id) ON DELETE CASCADE,
+    component_id INTEGER REFERENCES components(id) ON DELETE CASCADE NOT NULL,
     name TEXT NOT NULL,
-    quantity NUMERIC,
-    unit TEXT,
+    quantity NUMERIC NOT NULL,
+    unit TEXT NOT NULL,
     metric_quantity NUMERIC,
     metric_unit TEXT,
     optional BOOLEAN DEFAULT FALSE,
@@ -30,19 +34,19 @@ CREATE TABLE IF NOT EXISTS ingredients (
 
 CREATE TABLE IF NOT EXISTS tools (
     id SERIAL PRIMARY KEY,
-    recipe_id INTEGER REFERENCES recipes(id) ON DELETE CASCADE,
-    name TEXT,
+    recipe_id INTEGER REFERENCES recipes(id) ON DELETE CASCADE NOT NULL,
+    name TEXT NOT NULL,
     optional BOOLEAN DEFAULT FALSE
 );
 
 CREATE TABLE IF NOT EXISTS notes (
     id SERIAL PRIMARY KEY,
-    recipe_id INTEGER REFERENCES recipes(id) ON DELETE CASCADE,
-    note TEXT
+    recipe_id INTEGER REFERENCES recipes(id) ON DELETE CASCADE NOT NULL,
+    note TEXT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS tags (
     id SERIAL PRIMARY KEY,
-    recipe_id INTEGER REFERENCES recipes(id) ON DELETE CASCADE,
-    tag TEXT
-)
+    recipe_id INTEGER REFERENCES recipes(id) ON DELETE CASCADE NOT NULL,
+    tag TEXT NOT NULL
+);
