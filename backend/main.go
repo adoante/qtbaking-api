@@ -19,6 +19,14 @@ type Vod struct {
 	CreatedAt time.Time
 }
 
+type Recipe struct {
+	ID              int
+	VodId           sql.NullInt64
+	thumbnail       sql.NullString
+	temp_fahrenheit sql.NullInt64
+	temp_celsius    sql.NullInt64
+}
+
 func main() {
 	// Load Enviorment variables
 	dbUser := os.Getenv("POSTGRES_USER")
@@ -55,7 +63,7 @@ func main() {
 	// Create a Gin router with default middleware (logger and recovery)
 	r := gin.Default()
 
-	// Get all recipes
+	// Get all vods
 	r.GET("/vods", func(c *gin.Context) {
 		rows, err := db.Query(
 			`SELECT id, slug, title, video_url, created_at
@@ -71,15 +79,54 @@ func main() {
 		defer rows.Close()
 
 		// Return JSON response
-		var recipes []Vod
+		var vods []Vod
 
 		for rows.Next() {
-			var recipe Vod
+			var vod Vod
+			err := rows.Scan(
+				&vod.ID,
+				&vod.Slug,
+				&vod.Title,
+				&vod.VideoURL,
+				&vod.CreatedAt,
+			)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				return
+			}
+			vods = append(vods, vod)
+		}
+
+		c.JSON(http.StatusOK, vods)
+
+	})
+
+	// Get all recipes
+	r.GET("/recipes", func(c *gin.Context) {
+		rows, err := db.Query(
+			`SELECT id, vod_id, thumbnail, temp_fahrenheit, temp_celsius
+			FROM recipes
+		`)
+
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+		defer rows.Close()
+
+		// Return JSON response
+		var recipes []Recipe
+
+		for rows.Next() {
+			var recipe Recipe
 			err := rows.Scan(
 				&recipe.ID,
-				&recipe.Slug,
-				&recipe.Title,
-				&recipe.VideoURL,
+				&recipe.VodId,
+				&recipe.thumbnail,
+				&recipe.temp_fahrenheit,
+				&recipe.temp_celsius,
 			)
 			if err != nil {
 				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
