@@ -11,15 +11,12 @@ import (
 	"time"
 )
 
-type Recipe struct {
-	ID             int
-	Slug           string
-	Title          string
-	Thumbnail      string
-	TempFahrenheit int
-	TempCelsius    int
-	VideoURL       string
-	CreatedAt      time.Time
+type Vod struct {
+	ID        int
+	Slug      string
+	Title     string
+	VideoURL  string
+	CreatedAt time.Time
 }
 
 func main() {
@@ -59,10 +56,10 @@ func main() {
 	r := gin.Default()
 
 	// Get all recipes
-	r.GET("/recipes", func(c *gin.Context) {
+	r.GET("/vods", func(c *gin.Context) {
 		rows, err := db.Query(
-			`SELECT id, slug, title, thumbnail, temp_fahrenheit, temp_celsius, video_url
-			FROM recipes
+			`SELECT id, slug, title, video_url, created_at
+			FROM vods
 		`)
 
 		if err != nil {
@@ -74,17 +71,14 @@ func main() {
 		defer rows.Close()
 
 		// Return JSON response
-		var recipes []Recipe
+		var recipes []Vod
 
 		for rows.Next() {
-			var recipe Recipe
+			var recipe Vod
 			err := rows.Scan(
 				&recipe.ID,
 				&recipe.Slug,
 				&recipe.Title,
-				&recipe.Thumbnail,
-				&recipe.TempFahrenheit,
-				&recipe.TempCelsius,
 				&recipe.VideoURL,
 			)
 			if err != nil {
