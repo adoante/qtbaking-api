@@ -76,13 +76,95 @@ for file_name in recipes_json:
 
 # components
 
-# ingredients
+for file_name in recipes_json:
+    file_path = join("./recipes-json", file_name)
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        recipe = json.load(f)
+
+        recipe_id = recipes[recipe["title"]]
+
+        # loop through components array
+        for component in recipe["components"]:
+            name = component["name"]
+
+            cur.execute("""
+            INSERT INTO components (recipe_id, name)
+            VALUES (%s, %s)
+            RETURNING id
+            """, (recipe_id, name))
+
+            component_id = cur.fetchone()[0]
+
+            # ingredients
+            for ingredient in component["ingredients"]:
+                name = ingredient["name"]
+                quantity = ingredient["quantity"]
+                unit = ingredient["unit"]
+                metric_quantity = ingredient["metric_quantity"] if ingredient["metric_quantity"] else None
+                metric_unit = ingredient["metric_unit"] if ingredient["metric_unit"] else None
+                optional = ingredient["optional"]
+                notes = ", ".join(ingredient["notes"])
+
+                cur.execute("""
+                INSERT INTO ingredients (component_id, name, quantity, unit, metric_quantity, metric_unit, optional, notes)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                """, (component_id, name, quantity, unit, metric_quantity, metric_unit, optional, notes))
+
 
 # tools
 
+for file_name in recipes_json:
+    file_path = join("./recipes-json", file_name)
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        recipe = json.load(f)
+
+        recipe_id = recipes[recipe["title"]]
+
+        for tool in recipe["tools"]:
+            name = tool["name"]
+            optional = tool["optional"]
+
+            cur.execute("""
+            INSERT INTO tools (recipe_id, name, optional)
+            VALUES (%s, %s, %s)
+            """, (recipe_id, name, optional))
+
+
 # notes
 
+for file_name in recipes_json:
+    file_path = join("./recipes-json", file_name)
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        recipe = json.load(f)
+
+        recipe_id = recipes[recipe["title"]]
+
+        for note in recipe["notes"]:
+
+            cur.execute("""
+            INSERT INTO notes (recipe_id, note)
+            VALUES (%s, %s)
+            """, (recipe_id, note))
+
 # tags
+
+for file_name in recipes_json:
+    file_path = join("./recipes-json", file_name)
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        recipe = json.load(f)
+
+        recipe_id = recipes[recipe["title"]]
+
+        for tag in recipe["tags"]:
+
+            cur.execute("""
+            INSERT INTO tags (recipe_id, tag)
+            VALUES (%s, %s)
+            """, (recipe_id, tag))
 
 # close connection !
 conn.commit()

@@ -20,11 +20,48 @@ type Vod struct {
 }
 
 type Recipe struct {
-	ID              int
-	VodId           sql.NullInt64
-	thumbnail       sql.NullString
-	temp_fahrenheit sql.NullInt64
-	temp_celsius    sql.NullInt64
+	ID             int
+	VodId          sql.NullInt64
+	Thumbnail      sql.NullString
+	TempFahrenheit sql.NullInt64
+	TempCelsius    sql.NullInt64
+}
+
+type Component struct {
+	ID       int
+	RecipeId int
+	Name     string
+}
+
+type Ingredient struct {
+	ID             int
+	ComponentId    int
+	Name           string
+	Quantity       float64
+	Unit           string
+	MetricQuantity sql.NullFloat64
+	MetricUnit     sql.NullString
+	Optional       bool
+	Notes          string
+}
+
+type Tool struct {
+	ID       int
+	RecipeId int
+	Name     string
+	Optional bool
+}
+
+type Note struct {
+	ID       int
+	RecipeId int
+	Note     string
+}
+
+type Tag struct {
+	ID       int
+	RecipeId int
+	Tag      string
 }
 
 func main() {
@@ -124,9 +161,9 @@ func main() {
 			err := rows.Scan(
 				&recipe.ID,
 				&recipe.VodId,
-				&recipe.thumbnail,
-				&recipe.temp_fahrenheit,
-				&recipe.temp_celsius,
+				&recipe.Thumbnail,
+				&recipe.TempFahrenheit,
+				&recipe.TempCelsius,
 			)
 			if err != nil {
 				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
@@ -139,6 +176,195 @@ func main() {
 
 	})
 
+	// Get all components
+	r.GET("/components", func(c *gin.Context) {
+		rows, err := db.Query(
+			`SELECT id, recipe_id, name
+			FROM components
+		`)
+
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+		defer rows.Close()
+
+		// Return JSON response
+		var components []Component
+
+		for rows.Next() {
+			var component Component
+			err := rows.Scan(
+				&component.ID,
+				&component.RecipeId,
+				&component.Name,
+			)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				return
+			}
+			components = append(components, component)
+		}
+
+		c.JSON(http.StatusOK, components)
+
+	})
+
+	// Get all ingredients
+	r.GET("/ingredients", func(c *gin.Context) {
+		rows, err := db.Query(
+			`SELECT id, component_id, name, quantity, unit, metric_quantity, metric_unit, optional, notes
+			FROM ingredients
+		`)
+
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+		defer rows.Close()
+
+		// Return JSON response
+		var ingredients []Ingredient
+
+		for rows.Next() {
+			var ingredient Ingredient
+			err := rows.Scan(
+				&ingredient.ID,
+				&ingredient.ComponentId,
+				&ingredient.Name,
+				&ingredient.Quantity,
+				&ingredient.Unit,
+				&ingredient.MetricQuantity,
+				&ingredient.MetricUnit,
+				&ingredient.Optional,
+				&ingredient.Notes,
+			)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				return
+			}
+			ingredients = append(ingredients, ingredient)
+		}
+
+		c.JSON(http.StatusOK, ingredients)
+
+	})
+
+	// Get all tools
+	r.GET("/tools", func(c *gin.Context) {
+		rows, err := db.Query(
+			`SELECT id, recipe_id, name, optional
+			FROM tools
+		`)
+
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+		defer rows.Close()
+
+		// Return JSON response
+		var tools []Tool
+
+		for rows.Next() {
+			var tool Tool
+			err := rows.Scan(
+				&tool.ID,
+				&tool.RecipeId,
+				&tool.Name,
+				&tool.Optional,
+			)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				return
+			}
+
+			tools = append(tools, tool)
+		}
+
+		c.JSON(http.StatusOK, tools)
+
+	})
+
+	// Get all notes
+	r.GET("/notes", func(c *gin.Context) {
+		rows, err := db.Query(
+			`SELECT id, recipe_id, note
+			FROM notes
+		`)
+
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+		defer rows.Close()
+
+		// Return JSON response
+		var notes []Note
+
+		for rows.Next() {
+			var note Note
+			err := rows.Scan(
+				&note.ID,
+				&note.RecipeId,
+				&note.Note,
+			)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				return
+			}
+
+			notes = append(notes, note)
+		}
+
+		c.JSON(http.StatusOK, notes)
+
+	})
+
+	// Get all tags
+	r.GET("/tags", func(c *gin.Context) {
+		rows, err := db.Query(
+			`SELECT id, recipe_id, tag
+			FROM tags
+		`)
+
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+		defer rows.Close()
+
+		// Return JSON response
+		var tags []Tag
+
+		for rows.Next() {
+			var tag Tag
+			err := rows.Scan(
+				&tag.ID,
+				&tag.RecipeId,
+				&tag.Tag,
+			)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				return
+			}
+
+			tags = append(tags, tag)
+		}
+
+		c.JSON(http.StatusOK, tags)
+
+	})
 	// Start server on port 8080 (default)
 	// Server will listen on 0.0.0.0:8080 (localhost:8080 on Windows)
 	r.Run()
