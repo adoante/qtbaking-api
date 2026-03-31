@@ -102,6 +102,7 @@ func main() {
 	r := gin.Default()
 
 	// Get all vods
+	// TODO: addd pagination
 	r.GET("/vods", func(c *gin.Context) {
 		rows, err := db.Query(
 			`SELECT id, slug, title, video_url, created_at
@@ -136,6 +137,89 @@ func main() {
 		}
 
 		c.JSON(http.StatusOK, vods)
+
+	})
+
+	// get vod by slug
+	r.GET("/vods/:slug", func(c *gin.Context) {
+		id := c.Param("slug")
+
+		rows, err := db.Query(
+			`SELECT id, slug, title, video_url, created_at
+			FROM vods
+			WHERE slug = $1
+		`, id)
+
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+		defer rows.Close()
+
+		// Return JSON response
+		var vods []Vod
+
+		for rows.Next() {
+			var vod Vod
+			err := rows.Scan(
+				&vod.ID,
+				&vod.Slug,
+				&vod.Title,
+				&vod.VideoURL,
+				&vod.CreatedAt,
+			)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				return
+			}
+			vods = append(vods, vod)
+		}
+
+		c.JSON(http.StatusOK, vods)
+
+	})
+
+	// Get recipe by id
+	r.GET("/recipes/:id", func(c *gin.Context) {
+		id := c.Param("id")
+
+		rows, err := db.Query(
+			`SELECT id, vod_id, title, thumbnail, temp_fahrenheit, temp_celsius
+			FROM recipes
+			WHERE id = $1
+		`, id)
+
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+		defer rows.Close()
+
+		// Return JSON response
+		var recipes []Recipe
+
+		for rows.Next() {
+			var recipe Recipe
+			err := rows.Scan(
+				&recipe.ID,
+				&recipe.VodId,
+				&recipe.Title,
+				&recipe.Thumbnail,
+				&recipe.TempFahrenheit,
+				&recipe.TempCelsius,
+			)
+			if err != nil {
+				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				return
+			}
+			recipes = append(recipes, recipe)
+		}
+
+		c.JSON(http.StatusOK, recipes)
 
 	})
 
