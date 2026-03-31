@@ -23,6 +23,7 @@ type Recipe struct {
 	ID             int
 	VodId          sql.NullInt64
 	Thumbnail      sql.NullString
+	Title          string
 	TempFahrenheit sql.NullInt64
 	TempCelsius    sql.NullInt64
 }
@@ -141,7 +142,7 @@ func main() {
 	// Get all recipes
 	r.GET("/recipes", func(c *gin.Context) {
 		rows, err := db.Query(
-			`SELECT id, vod_id, thumbnail, temp_fahrenheit, temp_celsius
+			`SELECT id, vod_id, title, thumbnail, temp_fahrenheit, temp_celsius
 			FROM recipes
 		`)
 
@@ -161,6 +162,7 @@ func main() {
 			err := rows.Scan(
 				&recipe.ID,
 				&recipe.VodId,
+				&recipe.Title,
 				&recipe.Thumbnail,
 				&recipe.TempFahrenheit,
 				&recipe.TempCelsius,

@@ -10,6 +10,7 @@ CREATE TABLE IF NOT EXISTS recipes (
     id SERIAL PRIMARY KEY,
     vod_id INTEGER REFERENCES vods(id) ON DELETE CASCADE,
     thumbnail TEXT,
+    title TEXT NOT NULL,
     temp_fahrenheit INTEGER,
     temp_celsius INTEGER
 );

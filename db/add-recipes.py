@@ -36,7 +36,7 @@ for file_name in recipes_json:
             INSERT INTO vods (slug, title, video_url, created_at)
             VALUES (%s, %s, %s, %s)
             RETURNING id
-            """, (recipe["slug"], recipe["title"], recipe["video_url"], recipe["created_at"]))
+            """, (recipe["slug"], recipe["vod_title"], recipe["video_url"], recipe["created_at"]))
 
             vod_id = cur.fetchone()[0]
             vods[recipe["video_url"]] = vod_id
@@ -62,12 +62,13 @@ for file_name in recipes_json:
         thumbnail = recipe["thumbnail"] if recipe["thumbnail"] else None
         temp_fahrenheit = recipe["temp_fahrenheit"] if recipe["temp_fahrenheit"] else None
         temp_celsius = recipe["temp_celsius"] if recipe["temp_celsius"] else None
+        title = recipe["title"]
 
         cur.execute("""
-        INSERT INTO recipes (vod_id, thumbnail, temp_fahrenheit, temp_celsius)
-        VALUES (%s, %s, %s, %s)
+        INSERT INTO recipes (vod_id, thumbnail, title, temp_fahrenheit, temp_celsius)
+        VALUES (%s, %s, %s, %s, %s)
         RETURNING id
-        """, (vod_id, thumbnail, temp_fahrenheit, temp_celsius))
+        """, (vod_id, thumbnail, title, temp_fahrenheit, temp_celsius))
 
         recipe_id = cur.fetchone()[0]
         recipes[recipe["title"]] = recipe_id
