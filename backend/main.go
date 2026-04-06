@@ -56,6 +56,7 @@ func main() {
 	addToolsRoutes(v1, db)
 	addNoteRoutes(v1, db)
 	addTagRoutes(v1, db)
+	addBakealongRoutes(v1, db)
 
 	// Start server on port 8080 (default)
 	// Server will listen on 0.0.0.0:8080 (localhost:8080 on Windows)

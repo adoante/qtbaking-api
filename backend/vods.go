@@ -10,7 +10,7 @@ func addVodRoutes(rg *gin.RouterGroup, db *sql.DB) {
 	vods := rg.Group("/vods")
 
 	// Get all vods
-	// TODO: addd pagination
+	// TODO: add pagination
 	vods.GET("/", func(c *gin.Context) {
 		rows, err := db.Query(
 			`SELECT id, slug, title, video_url, created_at

@@ -5,6 +5,8 @@ import (
 	"time"
 )
 
+// SQL 1 to 1 types
+
 type Vod struct {
 	ID        int
 	Slug      string
@@ -57,4 +59,32 @@ type Tag struct {
 	ID       int
 	RecipeId int
 	Tag      string
+}
+
+// Return Response types
+
+type ComponentResponse struct {
+	Component
+	Ingredients []Ingredient
+}
+
+type RecipeResponse struct {
+	ID             int
+	RecipeTitle    string
+	Thumbnail      sql.NullString
+	TempFahrenheit sql.NullInt64
+	TempCelsius    sql.NullInt64
+	Components     []ComponentResponse
+	Tools          []Tool
+	Notes          []Note
+	Tags           []Tag
+}
+
+type VodRecipeResponse struct {
+	ID        int
+	Slug      string
+	VodTitle  string
+	VideoURL  string
+	CreatedAt time.Time
+	Recipes   []RecipeResponse
 }

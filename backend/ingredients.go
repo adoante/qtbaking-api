@@ -10,7 +10,7 @@ func addIngredientsRoutes(rg *gin.RouterGroup, db *sql.DB) {
 	ingredients := rg.Group("/ingredients")
 
 	// Get all ingredients
-	ingredients.GET("/ingredients", func(c *gin.Context) {
+	ingredients.GET("/", func(c *gin.Context) {
 		rows, err := db.Query(
 			`SELECT id, component_id, name, quantity, unit, metric_quantity, metric_unit, optional, notes
 			FROM ingredients
