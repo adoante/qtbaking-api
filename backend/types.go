@@ -61,8 +61,6 @@ type Tag struct {
 	Tag      string
 }
 
-// Return Response types
-
 type ComponentResponse struct {
 	Component
 	Ingredients []Ingredient
@@ -80,7 +78,7 @@ type RecipeResponse struct {
 	Tags           []Tag
 }
 
-type VodRecipeResponse struct {
+type Bakealong struct {
 	ID        int
 	Slug      string
 	VodTitle  string

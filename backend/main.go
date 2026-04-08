@@ -10,6 +10,14 @@ import (
 	"time"
 )
 
+// https://gin-gonic.com/en/docs/server-config/database/#middleware
+func DatabaseMiddleware(db *sql.DB) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		c.Set("db", db)
+		c.Next()
+	}
+}
+
 func main() {
 	// Load Enviorment variables
 	dbUser := os.Getenv("POSTGRES_USER")
@@ -29,6 +37,7 @@ func main() {
 
 	defer db.Close()
 
+	// Retry connection
 	const maxAttempts = 10
 	for i := 1; i <= maxAttempts; i++ {
 		err = db.Ping()
@@ -45,18 +54,19 @@ func main() {
 
 	// Create a Gin router with default middleware (logger and recovery)
 	r := gin.Default()
+	r.Use(DatabaseMiddleware(db))
 
-	// Get Routes
-	v1 := r.Group("/v1")
+	// Add Routes
+	v1 := r.Group("/")
 
-	addVodRoutes(v1, db)
-	addRecipeRoutes(v1, db)
-	addComponentRoutes(v1, db)
-	addIngredientsRoutes(v1, db)
-	addToolsRoutes(v1, db)
-	addNoteRoutes(v1, db)
-	addTagRoutes(v1, db)
-	addBakealongRoutes(v1, db)
+	addVodRoutes(v1)
+	addRecipeRoutes(v1)
+	addComponentRoutes(v1)
+	addIngredientRoutes(v1)
+	addToolRoutes(v1)
+	addNoteRoutes(v1)
+	addTagRoutes(v1)
+	addBakealongRoutes(v1)
 
 	// Start server on port 8080 (default)
 	// Server will listen on 0.0.0.0:8080 (localhost:8080 on Windows)

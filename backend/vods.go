@@ -6,42 +6,76 @@ import (
 	"net/http"
 )
 
-func addVodRoutes(rg *gin.RouterGroup, db *sql.DB) {
+func getAllVods(db *sql.DB) ([]Vod, error) {
+	var vods []Vod
+
+	rows, err := db.Query(`
+		SELECT id, slug, title, video_url, created_at
+		FROM vods
+	`)
+
+	if err != nil {
+		return nil, err
+	}
+
+	defer rows.Close()
+
+	for rows.Next() {
+		var vod Vod
+
+		err := rows.Scan(
+			&vod.ID,
+			&vod.Slug,
+			&vod.Title,
+			&vod.VideoURL,
+			&vod.CreatedAt,
+		)
+
+		if err != nil {
+			return nil, err
+		}
+
+		vods = append(vods, vod)
+	}
+
+	return vods, nil
+}
+
+func getVodBySlug(db *sql.DB, slug string) (Vod, error) {
+	var vod Vod
+
+	err := db.QueryRow(`
+		SELECT id, slug, title, video_url, created_at
+		FROM vods
+		WHERE slug = $1
+	`, slug).Scan(
+		&vod.ID,
+		&vod.Slug,
+		&vod.Title,
+		&vod.VideoURL,
+		&vod.CreatedAt,
+	)
+
+	if err != nil {
+		return vod, err
+	}
+
+	return vod, nil
+}
+
+func addVodRoutes(rg *gin.RouterGroup) {
 	vods := rg.Group("/vods")
 
 	// Get all vods
-	// TODO: add pagination
 	vods.GET("/", func(c *gin.Context) {
-		rows, err := db.Query(
-			`SELECT id, slug, title, video_url, created_at
-			FROM vods
-		`)
+		db := c.MustGet("db").(*sql.DB)
 
+		vods, err := getAllVods(db)
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{
 				"error": err.Error(),
 			})
 			return
-		}
-		defer rows.Close()
-
-		// Return JSON response
-		var vods []Vod
-
-		for rows.Next() {
-			var vod Vod
-			err := rows.Scan(
-				&vod.ID,
-				&vod.Slug,
-				&vod.Title,
-				&vod.VideoURL,
-				&vod.CreatedAt,
-			)
-			if err != nil {
-				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
-				return
-			}
-			vods = append(vods, vod)
 		}
 
 		c.JSON(http.StatusOK, vods)
@@ -49,41 +83,19 @@ func addVodRoutes(rg *gin.RouterGroup, db *sql.DB) {
 
 	// get vod by slug
 	vods.GET("/:slug", func(c *gin.Context) {
-		id := c.Param("slug")
+		db := c.MustGet("db").(*sql.DB)
+		slug := c.Param("slug")
 
-		rows, err := db.Query(
-			`SELECT id, slug, title, video_url, created_at
-			FROM vods
-			WHERE slug = $1
-		`, id)
-
+		vod, err := getVodBySlug(db, slug)
 		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{
-				"error": err.Error(),
-			})
-			return
-		}
-		defer rows.Close()
-
-		// Return JSON response
-		var vods []Vod
-
-		for rows.Next() {
-			var vod Vod
-			err := rows.Scan(
-				&vod.ID,
-				&vod.Slug,
-				&vod.Title,
-				&vod.VideoURL,
-				&vod.CreatedAt,
-			)
-			if err != nil {
-				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			if err == sql.ErrNoRows {
+				c.JSON(http.StatusNotFound, gin.H{"error": "vod not found"})
 				return
 			}
-			vods = append(vods, vod)
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
 		}
 
-		c.JSON(http.StatusOK, vods)
+		c.JSON(http.StatusOK, vod)
 	})
 }
