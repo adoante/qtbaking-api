@@ -2,9 +2,10 @@ package main
 
 import (
 	"database/sql"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
 )
 
 func getBakealongByYtId(db *sql.DB, ytId string) (Bakealong, error) {
@@ -17,7 +18,7 @@ func getBakealongByYtId(db *sql.DB, ytId string) (Bakealong, error) {
 	}
 
 	// Get Recipe Data
-	var fullRecipes []RecipeResponse
+	var fullRecipes []FullRecipe
 	recipes, err := getRecipesByVodId(db, strconv.Itoa(vod.ID))
 
 	if err != nil {
@@ -25,7 +26,7 @@ func getBakealongByYtId(db *sql.DB, ytId string) (Bakealong, error) {
 	}
 
 	// Get Components
-	var fullComponents []ComponentResponse
+	var fullComponents []FullComponent
 
 	for _, recipe := range recipes {
 		components, err := getComponentsByRecipeId(db, strconv.Itoa(recipe.ID))
@@ -40,7 +41,7 @@ func getBakealongByYtId(db *sql.DB, ytId string) (Bakealong, error) {
 				return bakealong, err
 			}
 
-			fullComponents = append(fullComponents, ComponentResponse{
+			fullComponents = append(fullComponents, FullComponent{
 				Component:   component,
 				Ingredients: ingredients,
 			})
@@ -64,9 +65,9 @@ func getBakealongByYtId(db *sql.DB, ytId string) (Bakealong, error) {
 			return bakealong, err
 		}
 
-		fullRecipes = append(fullRecipes, RecipeResponse{
+		fullRecipes = append(fullRecipes, FullRecipe{
 			ID:             recipe.ID,
-			RecipeTitle:    recipe.Title,
+			Title:          recipe.Title,
 			Thumbnail:      recipe.Thumbnail,
 			TempFahrenheit: recipe.TempFahrenheit,
 			TempCelsius:    recipe.TempCelsius,
@@ -88,8 +89,40 @@ func getBakealongByYtId(db *sql.DB, ytId string) (Bakealong, error) {
 	return bakealong, nil
 }
 
+func getAllBakealongs(db *sql.DB) ([]Bakealong, error) {
+	var bakealongs []Bakealong
+
+	// Get all vod ids
+	vods, err := getAllVods(db)
+	if err != nil {
+		return bakealongs, nil
+	}
+
+	for _, vod := range vods {
+		bakealong, err := getBakealongByYtId(db, vod.Slug)
+		if err != nil {
+			return bakealongs, nil
+		}
+		bakealongs = append(bakealongs, bakealong)
+	}
+
+	return bakealongs, nil
+}
+
 func addBakealongRoutes(rg *gin.RouterGroup) {
-	bakealongs := rg.Group("/bakealong")
+	bakealongs := rg.Group("/bakealongs")
+
+	bakealongs.GET("/", func(c *gin.Context) {
+		db := c.MustGet("db").(*sql.DB)
+
+		bakealongs, err := getAllBakealongs(db)
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
+
+		c.JSON(http.StatusOK, bakealongs)
+	})
 
 	bakealongs.GET("/:ytid", func(c *gin.Context) {
 		db := c.MustGet("db").(*sql.DB)
