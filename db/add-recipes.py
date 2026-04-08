@@ -2,6 +2,7 @@ import json
 from os import listdir
 from os.path import join
 import psycopg2
+from psycopg2.sql import NULL
 
 # connect to db
 # get values from the .env
@@ -105,7 +106,8 @@ for file_name in recipes_json:
                 metric_quantity = ingredient["metric_quantity"] if ingredient["metric_quantity"] else None
                 metric_unit = ingredient["metric_unit"] if ingredient["metric_unit"] else None
                 optional = ingredient["optional"]
-                notes = ", ".join(ingredient["notes"])
+                notes = ", ".join(
+                    ingredient["notes"]) if ingredient["notes"][0] != "" else None
 
                 cur.execute("""
                 INSERT INTO ingredients (component_id, name, quantity, unit, metric_quantity, metric_unit, optional, notes)

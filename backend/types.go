@@ -36,7 +36,7 @@ type Ingredient struct {
 	MetricQuantity *float64 `json:"metric_quantity,omitempty"`
 	MetricUnit     *string  `json:"metric_unit,omitempty"`
 	Optional       bool     `json:"optional"`
-	Notes          string   `json:"notes"`
+	Notes          *string  `json:"notes,omitempty"`
 }
 
 type Tool struct {
