@@ -119,8 +119,10 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 
 		sortBy := c.DefaultQuery("sort", "created_at")
 		order := c.DefaultQuery("order", "desc")
-		filter := c.Query("filter")
+		filterTag := c.Query("filter_tag")
 		match := c.DefaultQuery("match", "exact")
+		limit, _ := strconv.Atoi(c.DefaultQuery("limit", "2"))
+		offset, _ := strconv.Atoi(c.DefaultQuery("offset", "0"))
 
 		if match != "partial" && match != "exact" {
 			match = "exact"
@@ -139,6 +141,8 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 			return
 		}
+		end := min(offset+limit, len(bakealongs))
+		start := min(offset, len(bakealongs))
 
 		if order == "asc" && sortBy == "created_at" {
 			sort.Slice(bakealongs, func(a, b int) bool {
@@ -153,36 +157,39 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 		}
 
 		var result []Bakealong
-		if filter != "" && match == "exact" {
+		if filterTag != "" && match == "exact" {
 			for _, bakealong := range bakealongs {
 				for _, recipe := range bakealong.Recipes {
 					for _, tag := range recipe.Tags {
-						if tag.Tag == filter {
+						if tag.Tag == filterTag {
 							result = append(result, bakealong)
 						}
 					}
 				}
 			}
 
+			result = result[start:end]
 			c.JSON(http.StatusOK, result)
 			return
 		}
 
-		if filter != "" && match == "partial" {
+		if filterTag != "" && match == "partial" {
 			for _, bakealong := range bakealongs {
 				for _, recipe := range bakealong.Recipes {
 					for _, tag := range recipe.Tags {
-						if strings.Contains(tag.Tag, filter) {
+						if strings.Contains(tag.Tag, filterTag) {
 							result = append(result, bakealong)
 						}
 					}
 				}
 			}
 
+			result = result[start:end]
 			c.JSON(http.StatusOK, result)
 			return
 		}
 
+		bakealongs = bakealongs[start:end]
 		c.JSON(http.StatusOK, bakealongs)
 	})
 
