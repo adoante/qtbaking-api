@@ -2,8 +2,10 @@ package main
 
 import (
 	"database/sql"
-	"github.com/gin-gonic/gin"
 	"net/http"
+	"sort"
+
+	"github.com/gin-gonic/gin"
 )
 
 func getAllVods(db *sql.DB) ([]Vod, error) {
@@ -67,8 +69,22 @@ func addVodRoutes(rg *gin.RouterGroup) {
 	vods := rg.Group("/vods")
 
 	// Get all vods
+	// /vods?sort=created_at&order=asc
 	vods.GET("/", func(c *gin.Context) {
 		db := c.MustGet("db").(*sql.DB)
+
+		// https://gin-gonic.com/en/docs/routing/api-design/#filtering-and-sorting
+		sortBy := c.DefaultQuery("sort", "created_at")
+		order := c.DefaultQuery("order", "desc")
+
+		// Validate the sort field against an allow-list to prevent injection.
+		allowed := map[string]bool{"created_at": true}
+		if !allowed[sortBy] {
+			sortBy = "created_at"
+		}
+		if order != "asc" && order != "desc" {
+			order = "desc"
+		}
 
 		vods, err := getAllVods(db)
 		if err != nil {
@@ -76,6 +92,18 @@ func addVodRoutes(rg *gin.RouterGroup) {
 				"error": err.Error(),
 			})
 			return
+		}
+
+		if order == "asc" && sortBy == "created_at" {
+			sort.Slice(vods, func(a, b int) bool {
+				return vods[a].CreatedAt.Before(vods[b].CreatedAt)
+			})
+		}
+
+		if order == "desc" && sortBy == "created_at" {
+			sort.Slice(vods, func(a, b int) bool {
+				return vods[a].CreatedAt.After(vods[b].CreatedAt)
+			})
 		}
 
 		c.JSON(http.StatusOK, vods)

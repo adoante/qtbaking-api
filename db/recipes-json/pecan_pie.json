@@ -1,0 +1,119 @@
+{
+    "id": 0,
+    "slug": "8l3zbGgNxQg",
+    "title": "Pecan Pie",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/8l3zbGgNxQg",
+    "created_at": "2022-11-26 16:30:33",
+    "components": [
+        {
+            "id": 0,
+            "name": "Pecan Pie",
+            "ingredients": [
+                {
+                    "name": "Eggs",
+                    "quantity": 3,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Corn Syrup",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 350,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Honey",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 170,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Brown Sugar",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 213,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Butter",
+                    "quantity": 2,
+                    "unit": "tbsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        "melted"
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 1,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Salt",
+                    "quantity": 0.125,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Pecans",
+                    "quantity": 1.5,
+                    "unit": "cups",
+                    "metric_quantity": 190,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "pie-recipes",
+        "desserts",
+        "baking",
+        "classic-pies",
+        "apple-pie",
+        "pumpkin-pie"
+    ],
+    "vod_title": "PIE MASTER CLASS PART 1"
+}

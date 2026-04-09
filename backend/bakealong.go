@@ -3,7 +3,9 @@ package main
 import (
 	"database/sql"
 	"net/http"
+	"sort"
 	"strconv"
+	"strings"
 
 	"github.com/gin-gonic/gin"
 )
@@ -115,9 +117,69 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 	bakealongs.GET("/", func(c *gin.Context) {
 		db := c.MustGet("db").(*sql.DB)
 
+		sortBy := c.DefaultQuery("sort", "created_at")
+		order := c.DefaultQuery("order", "desc")
+		filter := c.Query("filter")
+		match := c.DefaultQuery("match", "exact")
+
+		if match != "partial" && match != "exact" {
+			match = "exact"
+		}
+
+		allowed := map[string]bool{"created_at": true}
+		if !allowed[sortBy] {
+			sortBy = "created_at"
+		}
+		if order != "asc" && order != "desc" {
+			order = "desc"
+		}
+
 		bakealongs, err := getAllBakealongs(db)
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+			return
+		}
+
+		if order == "asc" && sortBy == "created_at" {
+			sort.Slice(bakealongs, func(a, b int) bool {
+				return bakealongs[a].CreatedAt.Before(bakealongs[b].CreatedAt)
+			})
+		}
+
+		if order == "desc" && sortBy == "created_at" {
+			sort.Slice(bakealongs, func(a, b int) bool {
+				return bakealongs[a].CreatedAt.After(bakealongs[b].CreatedAt)
+			})
+		}
+
+		var result []Bakealong
+		if filter != "" && match == "exact" {
+			for _, bakealong := range bakealongs {
+				for _, recipe := range bakealong.Recipes {
+					for _, tag := range recipe.Tags {
+						if tag.Tag == filter {
+							result = append(result, bakealong)
+						}
+					}
+				}
+			}
+
+			c.JSON(http.StatusOK, result)
+			return
+		}
+
+		if filter != "" && match == "partial" {
+			for _, bakealong := range bakealongs {
+				for _, recipe := range bakealong.Recipes {
+					for _, tag := range recipe.Tags {
+						if strings.Contains(tag.Tag, filter) {
+							result = append(result, bakealong)
+						}
+					}
+				}
+			}
+
+			c.JSON(http.StatusOK, result)
 			return
 		}
 

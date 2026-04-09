@@ -1,0 +1,97 @@
+{
+    "id": 0,
+    "slug": "8l3zbGgNxQg",
+    "title": "Banana Cream Pie",
+    "thumbnail": "",
+    "temp_fahrenheit": 0,
+    "temp_celsius": 0,
+    "video_url": "https://www.youtube.com/embed/8l3zbGgNxQg",
+    "created_at": "2022-11-26 16:30:33",
+    "components": [
+        {
+            "id": 0,
+            "name": "Banana Cream Pie",
+            "ingredients": [
+                {
+                    "name": "Banana Cream Pudding Mix",
+                    "quantity": 1,
+                    "unit": "box",
+                    "metric_quantity": 5.1,
+                    "metric_unit": "oz",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Milk",
+                    "quantity": 1,
+                    "unit": "cup",
+                    "metric_quantity": 240,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        "cold"
+                    ]
+                },
+                {
+                    "name": "Whipping Cream",
+                    "quantity": 0.5,
+                    "unit": "cup",
+                    "metric_quantity": 125,
+                    "metric_unit": "ml",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Vanilla Extract",
+                    "quantity": 0.5,
+                    "unit": "tsp",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Powdered Sugar",
+                    "quantity": 0.25,
+                    "unit": "cup",
+                    "metric_quantity": 25,
+                    "metric_unit": "g",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "Bananas",
+                    "quantity": 2,
+                    "unit": "",
+                    "metric_quantity": 0,
+                    "metric_unit": "",
+                    "optional": false,
+                    "notes": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": [],
+    "notes": [
+        ""
+    ],
+    "tags": [
+        "pie-recipes",
+        "desserts",
+        "baking",
+        "classic-pies",
+        "apple-pie",
+        "pumpkin-pie"
+    ],
+    "vod_title": "PIE MASTER CLASS PART 1"
+}
