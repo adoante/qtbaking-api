@@ -119,9 +119,10 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 
 		sortBy := c.DefaultQuery("sort", "created_at")
 		order := c.DefaultQuery("order", "desc")
-		filterTag := c.Query("filter_tag")
-		match := c.DefaultQuery("match", "exact")
-		limit, _ := strconv.Atoi(c.DefaultQuery("limit", "2"))
+		filterTag := c.Query("tag")
+		filterTitle := c.Query("title")
+		match := c.DefaultQuery("match", "partial")
+		limit, _ := strconv.Atoi(c.DefaultQuery("limit", "10"))
 		offset, _ := strconv.Atoi(c.DefaultQuery("offset", "0"))
 
 		if match != "partial" && match != "exact" {
@@ -141,6 +142,7 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 			return
 		}
+
 		end := min(offset+limit, len(bakealongs))
 		start := min(offset, len(bakealongs))
 
@@ -157,6 +159,7 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 		}
 
 		var result []Bakealong
+
 		if filterTag != "" && match == "exact" {
 			for _, bakealong := range bakealongs {
 				for _, recipe := range bakealong.Recipes {
@@ -167,6 +170,9 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 					}
 				}
 			}
+
+			end := min(offset+limit, len(result))
+			start := min(offset, len(result))
 
 			result = result[start:end]
 			c.JSON(http.StatusOK, result)
@@ -183,6 +189,39 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 					}
 				}
 			}
+
+			end := min(offset+limit, len(result))
+			start := min(offset, len(result))
+
+			result = result[start:end]
+			c.JSON(http.StatusOK, result)
+			return
+		}
+
+		if filterTitle != "" && match == "exact" {
+			for _, bakealong := range bakealongs {
+				if bakealong.VodTitle == filterTitle {
+					result = append(result, bakealong)
+				}
+			}
+
+			end := min(offset+limit, len(result))
+			start := min(offset, len(result))
+
+			result = result[start:end]
+			c.JSON(http.StatusOK, result)
+			return
+		}
+
+		if filterTitle != "" && match == "partial" {
+			for _, bakealong := range bakealongs {
+				if strings.Contains(bakealong.VodTitle, filterTitle) {
+					result = append(result, bakealong)
+				}
+			}
+
+			end := min(offset+limit, len(result))
+			start := min(offset, len(result))
 
 			result = result[start:end]
 			c.JSON(http.StatusOK, result)

@@ -2,8 +2,11 @@ package main
 
 import (
 	"database/sql"
-	"github.com/gin-gonic/gin"
 	"net/http"
+	"strconv"
+	"strings"
+
+	"github.com/gin-gonic/gin"
 )
 
 func getAllRecipes(db *sql.DB) ([]Recipe, error) {
@@ -40,6 +43,134 @@ func getAllRecipes(db *sql.DB) ([]Recipe, error) {
 	}
 
 	return recipes, nil
+}
+
+func getAllFullRecipes(db *sql.DB) ([]FullRecipe, error) {
+	// Get Recipe Data
+	var fullRecipes []FullRecipe
+	recipes, err := getAllRecipes(db)
+
+	if err != nil {
+		return fullRecipes, err
+	}
+
+	// Get Components
+	for _, recipe := range recipes {
+		var fullComponents []FullComponent
+
+		components, err := getComponentsByRecipeId(db, strconv.Itoa(recipe.ID))
+		if err != nil {
+			return fullRecipes, err
+		}
+
+		// Get Ingredients
+		for _, component := range components {
+			ingredients, err := getIngredientsByComponentId(db, strconv.Itoa(component.ID))
+			if err != nil {
+				return fullRecipes, err
+			}
+
+			fullComponents = append(fullComponents, FullComponent{
+				Component:   component,
+				Ingredients: ingredients,
+			})
+		}
+
+		// Get Tools
+		tools, err := getToolsByRecipeId(db, strconv.Itoa(recipe.ID))
+		if err != nil {
+			return fullRecipes, err
+		}
+
+		// Get Notes
+		notes, err := getNotesByRecipeId(db, strconv.Itoa(recipe.ID))
+		if err != nil {
+			return fullRecipes, err
+		}
+
+		// Get Tags
+		tags, err := getTagsByRecipeId(db, strconv.Itoa(recipe.ID))
+		if err != nil {
+			return fullRecipes, err
+		}
+
+		fullRecipes = append(fullRecipes, FullRecipe{
+			ID:             recipe.ID,
+			Title:          recipe.Title,
+			Thumbnail:      recipe.Thumbnail,
+			TempFahrenheit: recipe.TempFahrenheit,
+			TempCelsius:    recipe.TempCelsius,
+			Components:     fullComponents,
+			Tools:          tools,
+			Notes:          notes,
+			Tags:           tags,
+		})
+	}
+
+	return fullRecipes, nil
+}
+
+func getFullRecipeId(db *sql.DB, id string) (FullRecipe, error) {
+	// Get Recipe Data
+	var fullRecipe FullRecipe
+	recipe, err := getRecipeById(db, id)
+
+	if err != nil {
+		return fullRecipe, err
+	}
+
+	// Get Components
+	var fullComponents []FullComponent
+
+	components, err := getComponentsByRecipeId(db, strconv.Itoa(recipe.ID))
+	if err != nil {
+		return fullRecipe, err
+	}
+
+	// Get Ingredients
+	for _, component := range components {
+		ingredients, err := getIngredientsByComponentId(db, strconv.Itoa(component.ID))
+		if err != nil {
+			return fullRecipe, err
+		}
+
+		fullComponents = append(fullComponents, FullComponent{
+			Component:   component,
+			Ingredients: ingredients,
+		})
+	}
+
+	// Get Tools
+	tools, err := getToolsByRecipeId(db, strconv.Itoa(recipe.ID))
+	if err != nil {
+		return fullRecipe, err
+	}
+
+	// Get Notes
+	notes, err := getNotesByRecipeId(db, strconv.Itoa(recipe.ID))
+	if err != nil {
+		return fullRecipe, err
+	}
+
+	// Get Tags
+	tags, err := getTagsByRecipeId(db, strconv.Itoa(recipe.ID))
+	if err != nil {
+		return fullRecipe, err
+	}
+
+	fullRecipe = FullRecipe{
+		ID:             recipe.ID,
+		Title:          recipe.Title,
+		Thumbnail:      recipe.Thumbnail,
+		TempFahrenheit: recipe.TempFahrenheit,
+		TempCelsius:    recipe.TempCelsius,
+		Components:     fullComponents,
+		Tools:          tools,
+		Notes:          notes,
+		Tags:           tags,
+	}
+
+	return fullRecipe, nil
 }
 
 func getRecipeById(db *sql.DB, id string) (Recipe, error) {
@@ -106,11 +237,24 @@ func getRecipesByVodId(db *sql.DB, vodId string) ([]Recipe, error) {
 func addRecipeRoutes(rg *gin.RouterGroup) {
 	recipes := rg.Group("/recipes")
 
-	// Get recipe by id
 	recipes.GET("/", func(c *gin.Context) {
 		db := c.MustGet("db").(*sql.DB)
 
-		recipes, err := getAllRecipes(db)
+		filterTitle := c.Query("title")
+		filterTag := c.Query("tag")
+		match := c.DefaultQuery("match", "partial")
+		limit, _ := strconv.Atoi(c.DefaultQuery("limit", "10"))
+		offset, _ := strconv.Atoi(c.DefaultQuery("offset", "0"))
+
+		if match != "partial" && match != "exact" {
+			match = "exact"
+		}
+
+		recipes, err := getAllFullRecipes(db)
+
+		end := min(offset+limit, len(recipes))
+		start := min(offset, len(recipes))
+
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{
 				"error": err.Error(),
@@ -118,7 +262,73 @@ func addRecipeRoutes(rg *gin.RouterGroup) {
 			return
 		}
 
-		c.JSON(http.StatusOK, recipes)
+		var result []FullRecipe
+
+		if filterTag != "" && match == "exact" {
+			for _, recipe := range recipes {
+				for _, tag := range recipe.Tags {
+					if tag.Tag == filterTag {
+						result = append(result, recipe)
+					}
+				}
+			}
+
+			end := min(offset+limit, len(result))
+			start := min(offset, len(result))
+
+			result = result[start:end]
+			c.JSON(http.StatusOK, result)
+			return
+		}
+
+		if filterTag != "" && match == "partial" {
+			for _, recipe := range recipes {
+				for _, tag := range recipe.Tags {
+					if strings.Contains(tag.Tag, filterTag) {
+						result = append(result, recipe)
+					}
+				}
+			}
+
+			end := min(offset+limit, len(result))
+			start := min(offset, len(result))
+
+			result = result[start:end]
+			c.JSON(http.StatusOK, result)
+			return
+		}
+
+		if filterTitle != "" && match == "exact" {
+			for _, recipe := range recipes {
+				if recipe.Title == filterTitle {
+					result = append(result, recipe)
+				}
+			}
+
+			end := min(offset+limit, len(result))
+			start := min(offset, len(result))
+
+			result = result[start:end]
+			c.JSON(http.StatusOK, result)
+			return
+		}
+
+		if filterTitle != "" && match == "partial" {
+			for _, recipe := range recipes {
+				if strings.Contains(recipe.Title, filterTitle) {
+					result = append(result, recipe)
+				}
+			}
+
+			end := min(offset+limit, len(result))
+			start := min(offset, len(result))
+
+			result = result[start:end]
+			c.JSON(http.StatusOK, result)
+			return
+		}
+
+		c.JSON(http.StatusOK, recipes[start:end])
 	})
 
 	// Get recipe by id
@@ -127,7 +337,7 @@ func addRecipeRoutes(rg *gin.RouterGroup) {
 
 		id := c.Param("id")
 
-		recipe, err := getRecipeById(db, id)
+		recipe, err := getFullRecipeId(db, id)
 		if err != nil {
 			if err == sql.ErrNoRows {
 				c.JSON(http.StatusNotFound, gin.H{"error": "recipe not found"})
