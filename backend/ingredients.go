@@ -87,7 +87,7 @@ func addIngredientRoutes(rg *gin.RouterGroup) {
 	ingredients := rg.Group("/ingredients")
 
 	// Get all ingredients
-	ingredients.GET("/", func(c *gin.Context) {
+	ingredients.GET("", func(c *gin.Context) {
 		db := c.MustGet("db").(*sql.DB)
 
 		ingredients, err := getAllIngredients(db)

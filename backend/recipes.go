@@ -237,7 +237,7 @@ func getRecipesByVodId(db *sql.DB, vodId string) ([]Recipe, error) {
 func addRecipeRoutes(rg *gin.RouterGroup) {
 	recipes := rg.Group("/recipes")
 
-	recipes.GET("/", func(c *gin.Context) {
+	recipes.GET("", func(c *gin.Context) {
 		db := c.MustGet("db").(*sql.DB)
 
 		filterTitle := c.Query("title")

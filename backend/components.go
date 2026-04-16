@@ -97,7 +97,7 @@ func addComponentRoutes(rg *gin.RouterGroup) {
 	components := rg.Group("/components")
 
 	// Get all components
-	components.GET("/", func(c *gin.Context) {
+	components.GET("", func(c *gin.Context) {
 		db := c.MustGet("db").(*sql.DB)
 
 		components, err := getAllComponents(db)

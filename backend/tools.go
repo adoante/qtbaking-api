@@ -73,7 +73,7 @@ func addToolRoutes(rg *gin.RouterGroup) {
 	tools := rg.Group("/tools")
 
 	// Get all notes
-	tools.GET("/", func(c *gin.Context) {
+	tools.GET("", func(c *gin.Context) {
 
 		db := c.MustGet("db").(*sql.DB)
 

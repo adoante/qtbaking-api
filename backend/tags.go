@@ -77,7 +77,7 @@ func addTagRoutes(rg *gin.RouterGroup) {
 	tags := rg.Group("/tags")
 
 	// Get all tags
-	tags.GET("/", func(c *gin.Context) {
+	tags.GET("", func(c *gin.Context) {
 
 		db := c.MustGet("db").(*sql.DB)
 

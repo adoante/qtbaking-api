@@ -114,7 +114,7 @@ func getAllBakealongs(db *sql.DB) ([]Bakealong, error) {
 func addBakealongRoutes(rg *gin.RouterGroup) {
 	bakealongs := rg.Group("/bakealongs")
 
-	bakealongs.GET("/", func(c *gin.Context) {
+	bakealongs.GET("", func(c *gin.Context) {
 		db := c.MustGet("db").(*sql.DB)
 
 		sortBy := c.DefaultQuery("sort", "created_at")

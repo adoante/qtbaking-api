@@ -70,7 +70,7 @@ func addVodRoutes(rg *gin.RouterGroup) {
 
 	// Get all vods
 	// /vods?sort=created_at&order=asc
-	vods.GET("/", func(c *gin.Context) {
+	vods.GET("", func(c *gin.Context) {
 		db := c.MustGet("db").(*sql.DB)
 
 		// https://gin-gonic.com/en/docs/routing/api-design/#filtering-and-sorting

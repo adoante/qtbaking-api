@@ -75,7 +75,7 @@ func addNoteRoutes(rg *gin.RouterGroup) {
 	notes := rg.Group("/notes")
 
 	// Get all notes
-	notes.GET("/", func(c *gin.Context) {
+	notes.GET("", func(c *gin.Context) {
 
 		db := c.MustGet("db").(*sql.DB)
 
