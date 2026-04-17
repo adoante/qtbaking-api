@@ -119,7 +119,7 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 
 		sortBy := c.DefaultQuery("sort", "created_at")
 		order := c.DefaultQuery("order", "desc")
-		filterTag := c.Query("tag")
+		filterTags := c.QueryArray("tag")
 		filterTitle := c.Query("title")
 		match := c.DefaultQuery("match", "partial")
 		limit, _ := strconv.Atoi(c.DefaultQuery("limit", "10"))
@@ -160,71 +160,65 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 
 		var result []Bakealong
 
-		if filterTag != "" && match == "exact" {
+		if match == "exact" {
 			for _, bakealong := range bakealongs {
+				matchesTitle := true
+				matchesTags := true
+
 				for _, recipe := range bakealong.Recipes {
-					for _, tag := range recipe.Tags {
-						if tag.Tag == filterTag {
-							result = append(result, bakealong)
+					if len(filterTags) != 0 {
+						var tags []string
+						for _, tag := range recipe.Tags {
+							tags = append(tags, tag.Tag)
 						}
+						matchesTags = containsAll(tags, filterTags)
 					}
 				}
-			}
 
-			end := min(offset+limit, len(result))
-			start := min(offset, len(result))
-
-			result = result[start:end]
-			c.JSON(http.StatusOK, result)
-			return
-		}
-
-		if filterTag != "" && match == "partial" {
-			for _, bakealong := range bakealongs {
-				for _, recipe := range bakealong.Recipes {
-					for _, tag := range recipe.Tags {
-						if strings.Contains(tag.Tag, filterTag) {
-							result = append(result, bakealong)
-						}
-					}
+				if filterTitle != "" {
+					matchesTitle = bakealong.VodTitle == filterTitle
 				}
-			}
 
-			end := min(offset+limit, len(result))
-			start := min(offset, len(result))
-
-			result = result[start:end]
-			c.JSON(http.StatusOK, result)
-			return
-		}
-
-		if filterTitle != "" && match == "exact" {
-			for _, bakealong := range bakealongs {
-				if bakealong.VodTitle == filterTitle {
+				if matchesTags && matchesTitle {
 					result = append(result, bakealong)
 				}
 			}
 
-			end := min(offset+limit, len(result))
 			start := min(offset, len(result))
-
+			end := min(offset+limit, len(result))
 			result = result[start:end]
-			c.JSON(http.StatusOK, result)
+			c.JSON(http.StatusOK, result[start:end])
 			return
 		}
 
-		if filterTitle != "" && match == "partial" {
+		if match == "partial" {
 			for _, bakealong := range bakealongs {
-				if strings.Contains(bakealong.VodTitle, filterTitle) {
+				matchesTags := true
+				matchesTitle := true
+				for _, recipe := range bakealong.Recipes {
+
+					if len(filterTags) != 0 {
+						var tags []string
+						for _, tag := range recipe.Tags {
+							tags = append(tags, tag.Tag)
+						}
+						matchesTags = containsAny(tags, filterTags)
+					}
+
+				}
+				if filterTitle != "" {
+					matchesTitle = strings.Contains(bakealong.VodTitle, filterTitle)
+				}
+
+				if matchesTags && matchesTitle {
 					result = append(result, bakealong)
 				}
 			}
 
-			end := min(offset+limit, len(result))
 			start := min(offset, len(result))
-
+			end := min(offset+limit, len(result))
 			result = result[start:end]
-			c.JSON(http.StatusOK, result)
+			c.JSON(http.StatusOK, result[start:end])
 			return
 		}
 

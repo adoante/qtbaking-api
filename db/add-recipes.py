@@ -146,11 +146,11 @@ for file_name in recipes_json:
         recipe_id = recipes[recipe["title"]]
 
         for note in recipe["notes"]:
-
-            cur.execute("""
-            INSERT INTO notes (recipe_id, note)
-            VALUES (%s, %s)
-            """, (recipe_id, note))
+            if note != "":
+                cur.execute("""
+                INSERT INTO notes (recipe_id, note)
+                VALUES (%s, %s)
+                """, (recipe_id, note))
 
 # tags
 
