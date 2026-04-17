@@ -234,6 +234,46 @@ func getRecipesByVodId(db *sql.DB, vodId string) ([]Recipe, error) {
 
 }
 
+func containsAll(slice []string, subslice []string) bool {
+	set := make(map[string]struct{})
+
+	for _, v := range slice {
+		set[v] = struct{}{}
+	}
+
+	for _, v := range subslice {
+		if _, ok := set[v]; !ok {
+			return false
+		}
+	}
+
+	return true
+}
+
+func containsAny(slice []string, subslice []string) bool {
+	set := make(map[string]struct{})
+
+	for _, v := range slice {
+		set[v] = struct{}{}
+	}
+
+	for _, v := range subslice {
+		if _, ok := set[v]; ok {
+			return true
+		}
+	}
+
+	return false
+}
+
+func normalizeTitle(s string) string {
+	s = strings.ToLower(strings.TrimSpace(s))
+	s = strings.ReplaceAll(s, "_", " ")
+	s = strings.ReplaceAll(s, "duplicate", "")
+	s = strings.Join(strings.Fields(s), " ")
+	return s
+}
+
 func addRecipeRoutes(rg *gin.RouterGroup) {
 	recipes := rg.Group("/recipes")
 
@@ -241,13 +281,13 @@ func addRecipeRoutes(rg *gin.RouterGroup) {
 		db := c.MustGet("db").(*sql.DB)
 
 		filterTitle := c.Query("title")
-		filterTag := c.Query("tag")
+		filterTags := c.QueryArray("tag")
 		match := c.DefaultQuery("match", "partial")
 		limit, _ := strconv.Atoi(c.DefaultQuery("limit", "10"))
 		offset, _ := strconv.Atoi(c.DefaultQuery("offset", "0"))
 
 		if match != "partial" && match != "exact" {
-			match = "exact"
+			match = "partial"
 		}
 
 		recipes, err := getAllFullRecipes(db)
@@ -264,67 +304,61 @@ func addRecipeRoutes(rg *gin.RouterGroup) {
 
 		var result []FullRecipe
 
-		if filterTag != "" && match == "exact" {
+		if match == "exact" {
 			for _, recipe := range recipes {
-				for _, tag := range recipe.Tags {
-					if tag.Tag == filterTag {
-						result = append(result, recipe)
+				matchesTags := true
+				matchesTitle := true
+
+				if len(filterTags) != 0 {
+					var tags []string
+					for _, tag := range recipe.Tags {
+						tags = append(tags, tag.Tag)
 					}
+					matchesTags = containsAll(tags, filterTags)
 				}
-			}
 
-			end := min(offset+limit, len(result))
-			start := min(offset, len(result))
-
-			result = result[start:end]
-			c.JSON(http.StatusOK, result)
-			return
-		}
-
-		if filterTag != "" && match == "partial" {
-			for _, recipe := range recipes {
-				for _, tag := range recipe.Tags {
-					if strings.Contains(tag.Tag, filterTag) {
-						result = append(result, recipe)
-					}
+				if filterTitle != "" {
+					matchesTitle = normalizeTitle(recipe.Title) == normalizeTitle(filterTitle)
 				}
-			}
 
-			end := min(offset+limit, len(result))
-			start := min(offset, len(result))
-
-			result = result[start:end]
-			c.JSON(http.StatusOK, result)
-			return
-		}
-
-		if filterTitle != "" && match == "exact" {
-			for _, recipe := range recipes {
-				if recipe.Title == filterTitle {
+				if matchesTags && matchesTitle {
 					result = append(result, recipe)
 				}
 			}
 
-			end := min(offset+limit, len(result))
 			start := min(offset, len(result))
-
+			end := min(offset+limit, len(result))
 			result = result[start:end]
-			c.JSON(http.StatusOK, result)
+			c.JSON(http.StatusOK, result[start:end])
 			return
 		}
 
-		if filterTitle != "" && match == "partial" {
+		if match == "partial" {
 			for _, recipe := range recipes {
-				if strings.Contains(recipe.Title, filterTitle) {
+				matchesTags := true
+				matchesTitle := true
+
+				if len(filterTags) != 0 {
+					var tags []string
+					for _, tag := range recipe.Tags {
+						tags = append(tags, tag.Tag)
+					}
+					matchesTags = containsAny(tags, filterTags)
+				}
+
+				if filterTitle != "" {
+					matchesTitle = strings.Contains(normalizeTitle(recipe.Title), filterTitle)
+				}
+
+				if matchesTags && matchesTitle {
 					result = append(result, recipe)
 				}
 			}
 
-			end := min(offset+limit, len(result))
 			start := min(offset, len(result))
-
+			end := min(offset+limit, len(result))
 			result = result[start:end]
-			c.JSON(http.StatusOK, result)
+			c.JSON(http.StatusOK, result[start:end])
 			return
 		}
 
