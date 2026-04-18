@@ -250,16 +250,32 @@ func addRecipeRoutes(rg *gin.RouterGroup) {
 			match = "partial"
 		}
 
+		if limit < 0 {
+			limit = 10
+		}
+		if offset < 0 {
+			offset = 0
+		}
+
 		recipes, err := getAllFullRecipes(db)
-
-		end := min(offset+limit, len(recipes))
-		start := min(offset, len(recipes))
-
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{
 				"error": err.Error(),
 			})
 			return
+		}
+
+		paginate := func(items []FullRecipe) []FullRecipe {
+			if offset >= len(items) {
+				return []FullRecipe{}
+			}
+
+			end := offset + limit
+			if end > len(items) {
+				end = len(items)
+			}
+
+			return items[offset:end]
 		}
 
 		var result []FullRecipe
@@ -286,10 +302,7 @@ func addRecipeRoutes(rg *gin.RouterGroup) {
 				}
 			}
 
-			start := min(offset, len(result))
-			end := min(offset+limit, len(result))
-			result = result[start:end]
-			c.JSON(http.StatusOK, result[start:end])
+			c.JSON(http.StatusOK, paginate(result))
 			return
 		}
 
@@ -307,7 +320,10 @@ func addRecipeRoutes(rg *gin.RouterGroup) {
 				}
 
 				if filterTitle != "" {
-					matchesTitle = strings.Contains(normalizeTitle(recipe.Title), filterTitle)
+					matchesTitle = strings.Contains(
+						normalizeTitle(recipe.Title),
+						normalizeTitle(filterTitle),
+					)
 				}
 
 				if matchesTags && matchesTitle {
@@ -315,14 +331,11 @@ func addRecipeRoutes(rg *gin.RouterGroup) {
 				}
 			}
 
-			start := min(offset, len(result))
-			end := min(offset+limit, len(result))
-			result = result[start:end]
-			c.JSON(http.StatusOK, result[start:end])
+			c.JSON(http.StatusOK, paginate(result))
 			return
 		}
 
-		c.JSON(http.StatusOK, recipes[start:end])
+		c.JSON(http.StatusOK, paginate(recipes))
 	})
 
 	// Get recipe by id
