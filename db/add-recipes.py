@@ -11,7 +11,7 @@ conn = psycopg2.connect(
     database="qtbaking",
     user="postgres",
     password="https://www.youtube.com/watch?v=XdNd0IwiGEo",
-    port=5432
+    port=4321
 )
 
 cur = conn.cursor()

@@ -1,19 +1,22 @@
 services:
   backend:
     build: .
-    ports:
-      - "8080:8080"
     depends_on:
       - db
     env_file:
       - .env
+    expose:
+      - "8080"
+    networks:
+      - default
+      - webnet # For Caddy reverse proxy
 
   db:
     image: postgres:latest
     restart: always
 
     ports:
-      - "5432:5432"
+      - "4321:5432"
 
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
@@ -23,6 +26,10 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql
       - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+networks:
+  webnet:
+    external: true
 
 volumes:
   postgres_data:

@@ -20,4 +20,6 @@ FROM alpine:latest
 WORKDIR /backend
 COPY --from=build /backend/api .
 
+EXPOSE 8080
+
 CMD ["/backend/api"]
