@@ -129,6 +129,13 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 			match = "exact"
 		}
 
+		if limit < 0 {
+			limit = 10
+		}
+		if offset < 0 {
+			offset = 0
+		}
+
 		allowed := map[string]bool{"created_at": true}
 		if !allowed[sortBy] {
 			sortBy = "created_at"
@@ -143,9 +150,6 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 			return
 		}
 
-		end := min(offset+limit, len(bakealongs))
-		start := min(offset, len(bakealongs))
-
 		if order == "asc" && sortBy == "created_at" {
 			sort.Slice(bakealongs, func(a, b int) bool {
 				return bakealongs[a].CreatedAt.Before(bakealongs[b].CreatedAt)
@@ -156,6 +160,19 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 			sort.Slice(bakealongs, func(a, b int) bool {
 				return bakealongs[a].CreatedAt.After(bakealongs[b].CreatedAt)
 			})
+		}
+
+		paginate := func(items []Bakealong) []Bakealong {
+			if offset >= len(items) {
+				return []Bakealong{}
+			}
+
+			end := offset + limit
+			if end > len(items) {
+				end = len(items)
+			}
+
+			return items[offset:end]
 		}
 
 		var result []Bakealong
@@ -184,10 +201,7 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 				}
 			}
 
-			start := min(offset, len(result))
-			end := min(offset+limit, len(result))
-			result = result[start:end]
-			c.JSON(http.StatusOK, result[start:end])
+			c.JSON(http.StatusOK, paginate(result))
 			return
 		}
 
@@ -195,8 +209,8 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 			for _, bakealong := range bakealongs {
 				matchesTags := true
 				matchesTitle := true
-				for _, recipe := range bakealong.Recipes {
 
+				for _, recipe := range bakealong.Recipes {
 					if len(filterTags) != 0 {
 						var tags []string
 						for _, tag := range recipe.Tags {
@@ -204,8 +218,8 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 						}
 						matchesTags = containsAny(tags, filterTags)
 					}
-
 				}
+
 				if filterTitle != "" {
 					matchesTitle = strings.Contains(bakealong.VodTitle, filterTitle)
 				}
@@ -215,15 +229,11 @@ func addBakealongRoutes(rg *gin.RouterGroup) {
 				}
 			}
 
-			start := min(offset, len(result))
-			end := min(offset+limit, len(result))
-			result = result[start:end]
-			c.JSON(http.StatusOK, result[start:end])
+			c.JSON(http.StatusOK, paginate(result))
 			return
 		}
 
-		bakealongs = bakealongs[start:end]
-		c.JSON(http.StatusOK, bakealongs)
+		c.JSON(http.StatusOK, paginate(bakealongs))
 	})
 
 	bakealongs.GET("/:ytid", func(c *gin.Context) {
